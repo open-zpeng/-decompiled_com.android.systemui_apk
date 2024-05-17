@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/speech_touch_stop_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.xiaopeng.xui.widget.XTextView android:gravity="start|center_vertical" android:id="@+id/speech_tv_asr" android:background="@drawable/bg_asr_center" android:visibility="gone" style="@style/speech_tv_asr"/>
+    </RelativeLayout>
+</RelativeLayout>

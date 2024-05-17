@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="start|center_vertical" android:id="@android:id/background" android:height="80dp">
+        <shape>
+            <corners android:radius="12dp"/>
+            <solid android:color="@color/osd_new_progressbar_progress_bg"/>
+        </shape>
+    </item>
+    <item android:gravity="start|center_vertical" android:id="@android:id/secondaryProgress" android:height="80dp">
+        <clip>
+            <shape>
+                <corners android:radius="12dp"/>
+                <solid android:color="@color/osd_new_progressbar_progress"/>
+            </shape>
+        </clip>
+    </item>
+    <item android:gravity="start|center_vertical" android:id="@android:id/progress" android:height="80dp">
+        <clip android:gravity="left" android:clipOrientation="horizontal">
+            <shape>
+                <corners android:radius="12dp"/>
+                <solid android:color="@color/osd_new_progressbar_progress"/>
+            </shape>
+        </clip>
+    </item>
+</layer-list>

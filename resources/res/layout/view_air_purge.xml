@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/hvac_air_purge_animation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <com.xiaopeng.systemui.ui.widget.AnimatedTextView android:textSize="22sp" android:textColor="#ffffff" android:id="@+id/hvac_air_purge_pm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/defaultFontTheme"/>
+</com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout>

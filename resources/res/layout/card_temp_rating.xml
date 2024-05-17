@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.infoflow.theme.AlphaOptimizedLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:paddingTop="170dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedTextView android:theme="@style/ctrl_num_text" android:textSize="100sp" android:textColor="@color/ctrl_num_tv_start_color" android:ellipsize="start" android:gravity="center" android:id="@+id/temperature_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NoN"/>
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedTextView android:theme="@style/ctrl_num_text" android:textSize="40sp" android:textColor="@color/ctrl_num_tv_start_color" android:ellipsize="start" android:layout_gravity="top" android:id="@+id/tv_uinit" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="15dp"/>
+</com.xiaopeng.systemui.infoflow.theme.AlphaOptimizedLinearLayout>

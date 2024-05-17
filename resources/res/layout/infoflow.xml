@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/view_infoflow" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/root_music"/>
+    <include layout="@layout/root_navi"/>
+    <include layout="@layout/root_message"/>
+</RelativeLayout>

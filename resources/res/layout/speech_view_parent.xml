@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/speech_view_parent" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.xiaopeng.systemui.infoflow.speech.SpeechRootView android:id="@+id/view_speech_root" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <RelativeLayout android:id="@+id/asr_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.xiaopeng.systemui.infoflow.theme.AnimatedImageView android:id="@+id/asr_background" android:background="@drawable/infoflow_asr_bg" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.xiaopeng.systemui.infoflow.theme.AnimatedImageView android:id="@+id/panel_asr_background" android:background="@drawable/infoflow_panel_asr_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/iv_asr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="272dp" android:layout_marginTop="50dp" android:src="@drawable/ic_infoflow_asr"/>
+        <com.xiaopeng.systemui.infoflow.theme.AnimatedTextView android:textSize="32sp" android:textColor="@color/infoflow_asr_normal" android:ellipsize="start" android:gravity="center_vertical" android:id="@+id/tv_speech_show" android:layout_width="500dp" android:layout_height="44dp" android:layout_marginLeft="328dp" android:layout_marginTop="47dp" android:singleLine="true" style="@style/defaultFontTheme"/>
+        <com.xiaopeng.systemui.infoflow.speech.ui.widget.VuiRecommendView android:id="@+id/recommend_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="242dp" android:layout_marginTop="98dp"/>
+        <com.xiaopeng.systemui.infoflow.theme.AlphaOptimizedRelativeLayout android:orientation="vertical" android:id="@+id/voice_loc_hint_container" android:background="@drawable/bg_recommend_card_voice_loc_doa" android:visibility="gone" android:layout_width="270dp" android:layout_height="178dp" android:layout_alignParentRight="true">
+            <com.xiaopeng.systemui.infoflow.theme.AnimatedTextView android:textSize="24sp" android:textColor="@color/voice_loc_hint_title" android:id="@+id/voice_loc_hint_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="53dp" android:layout_marginRight="26dp" android:layout_alignParentRight="true" android:fontFamily="@string/font_xpeng_medium"/>
+        </com.xiaopeng.systemui.infoflow.theme.AlphaOptimizedRelativeLayout>
+        <include android:layout_width="match_parent" android:layout_height="200dp" layout="@layout/view_voice_bottom_wave_container_by_code"/>
+        <com.xiaopeng.systemui.infoflow.theme.AnimatedImageView android:id="@+id/iv_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14dp" android:layout_marginTop="14dp" android:src="@drawable/ic_infoflow_close"/>
+    </RelativeLayout>
+</RelativeLayout>

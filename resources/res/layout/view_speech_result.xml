@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.infoflow.speech.ui.widget.ResultView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/view_speech_result" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/result_content" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</com.xiaopeng.systemui.infoflow.speech.ui.widget.ResultView>

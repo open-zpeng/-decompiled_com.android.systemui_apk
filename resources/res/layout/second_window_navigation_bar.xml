@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.secondarywindow.SecondNavigationBar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:id="@+id/second_window_navigation_bar" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/second_window_navigation_bar_layout1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.xiaopeng.systemui.quickmenu.widgets.PressableLayout android:layout_gravity="center" android:layout_width="168dp" android:layout_height="504dp" android:stateListAnimator="@animator/tile_button_selector_animator">
+            <com.xiaopeng.systemui.ui.widget.AnimatedProgressBar android:id="@+id/second_window_navi_hvac_progress_bar" android:layout_width="144dp" android:layout_height="480dp" android:progress="360" android:layout_centerInParent="true" style="@style/AnimatedProgressBar.Vertical.Navbar"/>
+            <com.xiaopeng.systemui.ui.widget.TemperatureTextView android:id="@+id/second_window_navi_temperature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="64dp" android:layout_centerHorizontal="true" app:ttvText1Size="44dp" app:ttvText2Size="25dp" app:ttvTextColor="@color/quick_menu_tile_text_color"/>
+        </com.xiaopeng.systemui.quickmenu.widgets.PressableLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/second_window_navigation_bar_layout2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/navbar_widget_margin" app:layout_constraintLeft_toRightOf="@+id/second_window_navigation_bar_layout1">
+        <com.xiaopeng.systemui.quickmenu.widgets.PressableLayout android:layout_gravity="center" android:layout_width="168dp" android:layout_height="504dp" android:stateListAnimator="@animator/tile_button_selector_animator">
+            <com.xiaopeng.systemui.quickmenu.widgets.VerticalSimpleSlider android:id="@+id/second_window_navi_air_progress_bar" android:layout_width="144dp" android:layout_height="480dp" android:layout_centerInParent="true" style="@style/Wind_SimpleSlider.vertical"/>
+            <com.xiaopeng.xui.widget.XImageView android:id="@+id/second_window_navi_air_icon" android:background="@drawable/ic_mid_airvolume" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="58dp" android:layout_centerHorizontal="true"/>
+        </com.xiaopeng.systemui.quickmenu.widgets.PressableLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/second_window_navigation_bar_layout3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/navbar_widget_margin" app:layout_constraintLeft_toRightOf="@+id/second_window_navigation_bar_layout2">
+        <com.xiaopeng.systemui.quickmenu.widgets.PressableLayout android:layout_gravity="center" android:layout_width="168dp" android:layout_height="504dp" android:stateListAnimator="@animator/tile_button_selector_animator">
+            <com.xiaopeng.systemui.ui.widget.AnimatedProgressBar android:id="@+id/second_window_navi_music_volume_progress_bar" android:layout_width="144dp" android:layout_height="480dp" android:progress="360" android:layout_centerInParent="true" style="@style/AnimatedProgressBar.Vertical.Navbar"/>
+            <com.xiaopeng.xui.widget.XImageView android:id="@+id/second_window_navi_music_icon" android:background="@drawable/ic_mid_music" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="58dp" android:layout_centerHorizontal="true"/>
+        </com.xiaopeng.systemui.quickmenu.widgets.PressableLayout>
+        <com.xiaopeng.systemui.quickmenu.widgets.XTileButton android:layout_gravity="center_horizontal" android:id="@+id/second_window_navi_headset_btn" android:layout_width="144dp" android:layout_height="196dp" android:layout_marginTop="@dimen/navbar_widget_margin" app:tile_background="@drawable/bg_control" app:tile_image="@drawable/ic_mid_bluetoothspeaker" app:tile_text="@string/bluetooth_headset" app:tile_textColor="@color/quick_menu_tile_text_color"/>
+    </LinearLayout>
+</com.xiaopeng.systemui.secondarywindow.SecondNavigationBar>

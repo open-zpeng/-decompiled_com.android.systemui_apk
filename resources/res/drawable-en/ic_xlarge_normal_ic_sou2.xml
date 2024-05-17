@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="120dp" android:width="120dp" android:viewportWidth="120" android:viewportHeight="120">
+    <path android:fillColor="@color/colorNaviCardTurnIcon" android:pathData="M12.636,40.854L42.147,21.244C43.223,20.529 44.622,21.493 44.331,22.749L41.184,36.343L79.427,36.343C95.207,36.343 108,49.094 108,64.823L108,99L96.571,99L96.571,64.823C96.571,55.386 88.896,47.735 79.427,47.735L41.184,47.735L44.331,61.329C44.622,62.585 43.223,63.549 42.147,62.834L12.636,43.224C11.788,42.66 11.788,41.418 12.636,40.854Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="evenOdd"/>
+</vector>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.infoflow.message.view.CardView xmlns:android="http://schemas.android.com/apk/res/android" android:focusableInTouchMode="true" android:layout_width="@dimen/card_width" android:layout_height="wrap_content">
+    <include android:visibility="visible" layout="@layout/view_recommend"/>
+</com.xiaopeng.systemui.infoflow.message.view.CardView>

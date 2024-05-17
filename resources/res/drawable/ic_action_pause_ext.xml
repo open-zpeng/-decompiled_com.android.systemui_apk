@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="64dp" android:width="64dp" android:viewportWidth="64" android:viewportHeight="64">
+    <path android:fillColor="@color/color_music_action_button_ext_selector" android:pathData="M20,16L20,16A4,4 0,0 1,24 20L24,44A4,4 0,0 1,20 48L20,48A4,4 0,0 1,16 44L16,20A4,4 0,0 1,20 16z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="evenOdd"/>
+    <path android:fillColor="@color/color_music_action_button_ext_selector" android:pathData="M44,16L44,16A4,4 0,0 1,48 20L48,44A4,4 0,0 1,44 48L44,48A4,4 0,0 1,40 44L40,20A4,4 0,0 1,44 16z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="evenOdd"/>
+</vector>

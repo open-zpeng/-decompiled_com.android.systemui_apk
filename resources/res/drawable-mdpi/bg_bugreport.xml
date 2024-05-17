@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners android:radius="24dp"/>
+            <gradient android:startColor="@color/bug_report_bg_linear_start_color" android:endColor="@color/bug_report_bg_linear_end_color" android:type="linear"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="24dp"/>
+            <gradient android:startColor="@color/bug_report_bg_radial_start_color" android:endColor="@color/bug_report_bg_radial_end_color" android:type="radial" android:gradientRadius="250dp" android:centerColor="@color/bug_report_bg_radial_center_color"/>
+        </shape>
+    </item>
+</layer-list>

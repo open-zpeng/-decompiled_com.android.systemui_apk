@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/x_btn_mix_small_radius"/>
+    <size android:height="@dimen/x_btn_mix_small_height" android:width="@dimen/x_btn_mix_small_width"/>
+    <solid android:color="@color/x_primary_neutral_color_selector"/>
+</shape>

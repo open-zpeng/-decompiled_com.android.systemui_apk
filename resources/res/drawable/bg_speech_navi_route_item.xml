@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="24dp"/>
+            <gradient android:startColor="@color/speech_poi_item_bg_start_color" android:endColor="@color/speech_poi_item_bg_end_color" android:angle="90" android:type="linear"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="24dp"/>
+            <gradient android:startColor="@color/bg_navi_radial_start_color" android:endColor="@color/bg_navi_radial_end_color" android:type="radial" android:centerX="0.5" android:centerY="0" android:gradientRadius="30" android:centerColor="@color/bg_navi_radial_center_color"/>
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="64dp" android:width="64dp" android:viewportWidth="64" android:viewportHeight="64">
+    <path android:fillColor="@color/color_music_action_button_ext_selector" android:pathData="M28.1562,35.7435L41.898,44.2311C43.7776,45.392 46.2423,44.8094 47.4032,42.9299C47.7934,42.2982 48,41.5704 48,40.8279L48,23.1721C48,20.9629 46.2091,19.1721 44,19.1721C43.2575,19.1721 42.5297,19.3787 41.898,19.7689L28.1562,28.2565C26.0887,29.5335 25.4478,32.2447 26.7248,34.3122C27.0842,34.894 27.5743,35.3841 28.1562,35.7435Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="evenOdd"/>
+    <path android:fillColor="@color/color_music_action_button_ext_selector" android:pathData="M18.5,18L18.5,18A2.5,2.5 0,0 0,16 20.5L16,43.5A2.5,2.5 0,0 0,18.5 46L18.5,46A2.5,2.5 0,0 0,21 43.5L21,20.5A2.5,2.5 0,0 0,18.5 18z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="nonZero"/>
+</vector>

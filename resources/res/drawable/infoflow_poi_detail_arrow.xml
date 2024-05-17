@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="32dp" android:width="18dp" android:viewportWidth="18" android:viewportHeight="32">
+    <path android:fillColor="@color/color_speech_navi_poi_detail_arrow" android:pathData="M2.4304,5.5357C1.8372,4.9365 1.8601,3.987 2.4815,3.415C3.1029,2.843 4.0876,2.865 4.6808,3.4643L15.5697,14.4643C16.1255,15.0258 16.1452,15.9035 15.6151,16.4877L4.7262,28.4877C4.1605,29.1112 3.1778,29.1744 2.5312,28.6288C1.8847,28.0833 1.8192,27.1357 2.3849,26.5122L12.3375,15.544L2.4304,5.5357Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="nonZero"/>
+</vector>

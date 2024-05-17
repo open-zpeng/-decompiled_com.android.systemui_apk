@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item>
+        <shape>
+            <solid android:color="@color/colorExitBtnBg"/>
+            <corners android:radius="33dp"/>
+        </shape>
+    </item>
+    <item>
+        <drawable app:rippleRadius="@dimen/x_btn_real_radius" app:rippleSupportScale="true" class="com.xiaopeng.systemui.infoflow.widget.drawable.XRippleDrawable"/>
+    </item>
+</layer-list>

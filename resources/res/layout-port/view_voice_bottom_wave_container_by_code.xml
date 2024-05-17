@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.infoflow.speech.ui.widget.VoiceWaveViewContainer xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/voice_wave_view_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.systemui.infoflow.speech.ui.widget.VerticalWaveViewByCode android:id="@+id/left_voice_wave" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="1600dp" android:layout_height="match_parent" app:waveLocation="1"/>
+    <com.xiaopeng.systemui.infoflow.speech.ui.widget.VerticalWaveViewByCode android:id="@+id/mid_voice_wave" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="1000dp" android:layout_height="match_parent" android:layout_centerHorizontal="true" app:waveLocation="0"/>
+    <com.xiaopeng.systemui.infoflow.speech.ui.widget.VerticalWaveViewByCode android:id="@+id/right_voice_wave" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="1600dp" android:layout_height="match_parent" android:layout_alignParentRight="true" app:waveLocation="2"/>
+</com.xiaopeng.systemui.infoflow.speech.ui.widget.VoiceWaveViewContainer>

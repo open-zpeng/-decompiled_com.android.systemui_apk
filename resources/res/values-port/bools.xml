@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">false</bool>
+    <bool name="cfg_car_control_preload_support">false</bool>
+    <bool name="cfg_clock_support">true</bool>
+    <bool name="cfg_driver_account_support">false</bool>
+    <bool name="cfg_lock_support">false</bool>
+    <bool name="cfg_passenger_account_support">false</bool>
+    <bool name="cfg_smart_device_support">true</bool>
+    <bool name="kg_sim_puk_account_full_screen">true</bool>
+    <bool name="show_defrost_back_on_status_bar">false</bool>
+    <bool name="show_defrost_on_status_bar">false</bool>
+</resources>

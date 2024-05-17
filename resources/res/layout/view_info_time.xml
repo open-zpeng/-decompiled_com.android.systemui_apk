@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="130dp" android:layout_marginTop="38dp">
+    <com.xiaopeng.systemui.infoflow.widget.DateView android:orientation="horizontal" android:id="@+id/view_date_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/view_date_time_left_margin">
+        <com.xiaopeng.systemui.infoflow.theme.AnimatedTextView android:theme="@style/defaultFontTheme" android:textSize="33dp" android:textColor="@color/colorInfoflowTimeText" android:id="@+id/tv_info_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:letterSpacing="0.1"/>
+        <com.xiaopeng.systemui.infoflow.theme.AnimatedTextView android:theme="@style/defaultFontTheme" android:textSize="33dp" android:textColor="@color/colorInfoflowDateText" android:id="@+id/tv_info_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp"/>
+    </com.xiaopeng.systemui.infoflow.widget.DateView>
+</RelativeLayout>

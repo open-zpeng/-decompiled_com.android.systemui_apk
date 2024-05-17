@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="64dp" android:width="64dp" android:viewportWidth="64" android:viewportHeight="64">
+    <path android:fillColor="#d8d8d8" android:pathData="M0,0h64v64h-64z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillAlpha="0" android:fillType="evenOdd"/>
+    <path android:fillColor="#d8d8d8" android:pathData="M0,0h64v64h-64z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillAlpha="0" android:fillType="evenOdd"/>
+    <path android:fillColor="#00000000" android:pathData="M17,45.1429L17,33C17,25.1102 23.8756,18.7143 32.3571,18.7143C40.8387,18.7143 47.7143,25.1102 47.7143,33L47.7143,45.1429" android:strokeColor="@color/sysbar_bluetooth_headset_off" android:strokeWidth="4" android:strokeLineCap="round" android:fillType="evenOdd"/>
+    <path android:fillColor="@color/sysbar_bluetooth_headset_off" android:pathData="M23.5,35C24.8807,35 26,36.1193 26,37.5L26,44.5C26,45.8807 24.8807,47 23.5,47C22.1193,47 21,45.8807 21,44.5L21,37.5C21,36.1193 22.1193,35 23.5,35Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="evenOdd"/>
+    <path android:fillColor="@color/sysbar_bluetooth_headset_off" android:pathData="M41.2,35C42.5807,35 43.7,36.1193 43.7,37.5L43.7,44.5C43.7,45.8807 42.5807,47 41.2,47C39.8193,47 38.7,45.8807 38.7,44.5L38.7,37.5C38.7,36.1193 39.8193,35 41.2,35Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="evenOdd"/>
+</vector>

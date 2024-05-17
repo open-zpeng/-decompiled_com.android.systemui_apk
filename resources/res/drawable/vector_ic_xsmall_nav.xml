@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="24dp" android:width="24dp" android:viewportWidth="24" android:viewportHeight="24">
+    <path android:fillColor="@color/color_infoflow_route_element_selector" android:pathData="M13.3247,4.0052L19.7951,16.2411C20.1817,16.9721 19.9025,17.8779 19.1715,18.2644C18.8176,18.4516 18.4035,18.4892 18.0217,18.3688L12,16.4709L5.9872,18.3881C5.1995,18.6393 4.3573,18.2043 4.1061,17.4165C3.9841,17.0339 4.0209,16.6182 4.2084,16.263L10.6773,4.0062C11.0632,3.275 11.9688,2.9951 12.7001,3.381C12.9663,3.5215 13.184,3.739 13.3247,4.0052Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillAlpha="0.56" android:fillType="evenOdd"/>
+</vector>

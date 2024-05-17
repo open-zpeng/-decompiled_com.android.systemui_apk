@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XLinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="170dp" android:layout_marginTop="480dp">
+        <com.xiaopeng.xui.widget.XTextView android:textSize="42sp" android:textColor="@color/screensaver_time" android:gravity="bottom" android:id="@+id/txt_time_noon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@string/x_font_typeface_bold" android:layout_marginEnd="30dp"/>
+        <com.xiaopeng.xui.widget.XTextView android:textSize="150sp" android:textColor="@color/screensaver_time" android:gravity="right" android:id="@+id/txt_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@string/x_font_typeface_number_bold" android:letterSpacing="0.05"/>
+    </com.xiaopeng.xui.widget.XLinearLayout>
+    <com.xiaopeng.xui.widget.XLinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="90dp" android:layout_marginTop="650dp">
+        <com.xiaopeng.xui.widget.XLinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.xiaopeng.xui.widget.XTextView android:textSize="64sp" android:textColor="@color/screensaver_date" android:gravity="center" android:id="@+id/txt_month" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@string/x_font_typeface_medium"/>
+            <com.xiaopeng.xui.widget.XTextView android:textSize="64sp" android:textColor="@color/screensaver_date" android:gravity="center" android:id="@+id/txt_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@string/x_font_typeface_medium"/>
+        </com.xiaopeng.xui.widget.XLinearLayout>
+        <com.xiaopeng.xui.widget.XTextView android:textSize="64sp" android:textColor="@color/screensaver_date" android:gravity="center" android:id="@+id/txt_week" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@string/x_font_typeface_medium" android:layout_marginStart="25dp"/>
+    </com.xiaopeng.xui.widget.XLinearLayout>
+</com.xiaopeng.xui.widget.XFrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:drawable="@drawable/bg_control"/>
+    <item android:gravity="start|center_vertical" android:id="@android:id/progress" android:top="@dimen/x_simple_slider_padding" android:bottom="@dimen/x_simple_slider_padding" android:start="@dimen/x_simple_slider_padding" android:end="@dimen/x_simple_slider_padding">
+        <drawable app:radius_x="@dimen/x_simple_slider_border_in_radius" app:radius_y="@dimen/x_simple_slider_border_in_radius" class="com.xiaopeng.systemui.quickmenu.widgets.ClipDrawable">
+            <shape>
+                <corners android:radius="36dp"/>
+                <solid android:color="@color/x_simple_slider_color"/>
+            </shape>
+        </drawable>
+    </item>
+</layer-list>

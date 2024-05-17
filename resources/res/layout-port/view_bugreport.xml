@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.infoflow.speech.ui.widget.BugReportView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/bg_voice_result" android:clickable="true" android:layout_width="match_parent" android:layout_height="496dp">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="161dp" android:layout_marginBottom="170dp" android:layout_alignParentBottom="true">
+        <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:layout_gravity="center_vertical" android:id="@+id/iv_red_point" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/red_point"/>
+        <com.xiaopeng.systemui.ui.widget.AnimatedTextView android:textSize="64sp" android:layout_gravity="center_vertical" android:id="@+id/tv_time" android:layout_marginLeft="16dp" android:text="0" style="@style/BugReportTime"/>
+        <com.xiaopeng.systemui.ui.widget.AnimatedTextView android:textSize="32sp" android:layout_marginLeft="16dp" android:text="@string/feedback_max_time" style="@style/BugReportTitle"/>
+    </LinearLayout>
+    <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/voice_wave" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="68dp" android:layout_marginBottom="74dp" android:layout_alignParentBottom="true"/>
+    <Button android:textSize="30sp" android:textColor="@color/bug_report_finish_btn_text_color" android:id="@+id/btn_finish" android:background="@drawable/bg_bug_report_finish_btn" android:layout_width="160dp" android:layout_height="66dp" android:layout_marginRight="72dp" android:layout_marginBottom="153dp" android:text="@string/finish" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+</com.xiaopeng.systemui.infoflow.speech.ui.widget.BugReportView>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_selected="false" android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="35dp"/>
+            <solid android:color="@color/color_button_bg_selector"/>
+        </shape>
+    </item>
+    <item android:state_enabled="true" android:state_selected="false" android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="35dp"/>
+            <solid android:color="@color/color_button_bg_selector"/>
+        </shape>
+    </item>
+    <item android:state_enabled="false" android:state_selected="false" android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="35dp"/>
+            <solid android:color="@color/color_button_bg_selector"/>
+        </shape>
+    </item>
+    <item android:state_enabled="true" android:state_selected="true" android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="35dp"/>
+            <solid android:color="@color/color_button_bg_selector"/>
+        </shape>
+    </item>
+    <item android:state_enabled="true" android:state_selected="true" android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="35dp"/>
+            <solid android:color="@color/color_button_bg_selector"/>
+        </shape>
+    </item>
+    <item android:state_enabled="false" android:state_selected="true" android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="35dp"/>
+            <solid android:color="@color/color_button_bg_selector"/>
+        </shape>
+    </item>
+</selector>

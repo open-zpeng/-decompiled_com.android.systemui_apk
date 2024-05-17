@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/asr_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.systemui.infoflow.theme.AlphaOptimizedFrameLayout android:background="@drawable/bg_infoflow_vui_asr" android:layout_width="match_parent" android:layout_height="@dimen/infoflow_vui_asr_view_height"/>
+    <com.xiaopeng.systemui.infoflow.theme.AlphaOptimizedRelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/infoflow_vui_asr_view_height" android:layout_marginLeft="@dimen/infoflow_vui_asr_view_margin_left" android:layout_marginTop="@dimen/infoflow_vui_asr_view_margin_top">
+        <FrameLayout android:id="@+id/asr_avatar_container" android:layout_width="100dp" android:layout_height="100dp" android:layout_marginLeft="15dp"/>
+        <com.xiaopeng.systemui.infoflow.theme.AnimatedTextView android:textSize="30sp" android:textColor="@color/infoflow_asr_normal" android:ellipsize="start" android:gravity="center" android:id="@+id/tv_speech_show" android:paddingLeft="211dp" android:layout_width="560dp" android:layout_height="@dimen/speech_vui_asr_bubble_height" android:layout_marginTop="@dimen/speech_vui_asr_bubble_margin_top" android:singleLine="true" style="@style/defaultFontTheme"/>
+        <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/iv_asr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="154dp" android:layout_marginTop="@dimen/speech_vui_asr_item_margin_top" android:src="@drawable/ic_infoflow_asr"/>
+        <com.xiaopeng.systemui.infoflow.speech.ui.widget.VuiRecommendView android:id="@+id/recommend_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="360dp" android:layout_marginTop="13dp"/>
+    </com.xiaopeng.systemui.infoflow.theme.AlphaOptimizedRelativeLayout>
+</RelativeLayout>

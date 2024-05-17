@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.infoflow.egg.EasterEggView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/easter_egg_view" android:visibility="gone" android:layout_width="@dimen/egg_view_width" android:layout_height="@dimen/egg_view_height" android:layout_marginTop="@dimen/egg_view_margin_top" android:layout_marginEnd="@dimen/egg_view_margin_right" android:layout_alignParentEnd="true">
+    <FrameLayout android:id="@+id/layout_content" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:layout_gravity="end" android:id="@+id/layout_close" android:clickable="true" android:layout_width="@dimen/egg_view_close_layout_size" android:layout_height="@dimen/egg_view_close_layout_size">
+        <ImageButton android:layout_gravity="end" android:id="@+id/btn_close" android:background="@drawable/bg_egg_close" android:padding="@dimen/egg_view_close_btn_padding" android:layout_width="@dimen/egg_view_close_btn_size" android:layout_height="@dimen/egg_view_close_btn_size" android:layout_margin="@dimen/egg_view_close_btn_margin" android:src="@drawable/ic_egg_close"/>
+    </FrameLayout>
+</com.xiaopeng.systemui.infoflow.egg.EasterEggView>

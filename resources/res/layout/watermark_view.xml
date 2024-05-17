@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/watermark_layout" android:background="@android:color/transparent" android:layout_width="2400dp" android:layout_height="1200dp">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="390dp" android:layout_marginStart="160dp">
+        <com.xiaopeng.xui.widget.XImageView android:id="@+id/watermark_logo" android:layout_width="@dimen/watermark_logo_width" android:layout_height="@dimen/watermark_logo_height" android:src="@drawable/ic_watermark_logo"/>
+        <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/watermark_text_size" android:textColor="@color/watermark_text" android:id="@+id/watermark_title" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:fontFamily="@string/x_font_typeface_medium" android:layout_marginStart="30dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="550dp" android:layout_marginStart="184dp">
+        <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/watermark_number_size" android:textColor="@color/watermark_text" android:id="@+id/watermark_VIN" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:fontFamily="@string/x_font_typeface_medium"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="690dp" android:layout_marginStart="184dp">
+        <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/watermark_number_size" android:textColor="@color/watermark_text" android:id="@+id/watermark_account" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:fontFamily="@string/x_font_typeface_medium"/>
+    </LinearLayout>
+</com.xiaopeng.xui.widget.XFrameLayout>

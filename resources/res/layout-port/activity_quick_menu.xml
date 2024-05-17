@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/root_view" android:background="@drawable/quick_menu_panel_mask_selector" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/quick_menu_panel" android:background="@drawable/quick_menu_bg_bottom_selector" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/quick_menu_layout" android:paddingTop="@dimen/quick_menu_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/quick_menu_padding_left"/>
+        <RelativeLayout android:gravity="center" android:id="@+id/quick_menu_bar" android:paddingTop="160dp" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/quick_menu_bar_iv" android:background="@drawable/quick_menu_bar_background" android:layout_width="400dp" android:layout_height="8dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/quick_menu_panel_empty" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1"/>
+</LinearLayout>

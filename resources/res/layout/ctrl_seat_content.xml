@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.infoflow.theme.AnimatedImageView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/ctrl_seat_content_icon" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY"/>

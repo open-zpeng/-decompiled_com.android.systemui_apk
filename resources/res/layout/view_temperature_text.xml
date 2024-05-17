@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.ui.widget.AlphaOptimizedLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="bottom" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/image_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <com.xiaopeng.systemui.ui.widget.AnimatedTextView android:id="@+id/text1_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:fontFamily="@string/font_xpeng_number_regular"/>
+    <com.xiaopeng.systemui.ui.widget.AnimatedTextView android:id="@+id/text2_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:fontFamily="@string/font_xpeng_number_regular"/>
+    <com.xiaopeng.systemui.ui.widget.AnimatedTextView android:layout_gravity="top" android:id="@+id/unit_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false"/>
+</com.xiaopeng.systemui.ui.widget.AlphaOptimizedLinearLayout>

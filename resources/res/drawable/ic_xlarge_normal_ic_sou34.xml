@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="120dp" android:width="120dp" android:viewportWidth="120" android:viewportHeight="120">
+    <path android:fillColor="@color/colorNaviCardTurnIcon" android:pathData="M36.539,120l0,-120l16,0l0,120z" android:strokeColor="#00000000" android:strokeWidth="1" android:strokeAlpha="0.3577" android:fillAlpha="0.1288" android:fillType="nonZero"/>
+    <path android:fillColor="@color/colorNaviCardTurnIcon" android:pathData="M91.093,12.929C91.368,13.191 91.528,13.567 91.506,13.966L91.49,14.117L84.149,57.955C84.071,58.425 83.827,58.851 83.462,59.158C82.654,59.835 81.468,59.765 80.744,59.021L80.644,58.91L69.689,45.848L62.112,53.425C56.111,59.426 52.739,67.566 52.739,76.053L52.739,120.431L36.739,120.431L36.739,76.053C36.739,63.322 41.796,51.113 50.798,42.111L58.396,34.514L45.079,23.345C44.233,22.636 44.122,21.374 44.832,20.528C45.138,20.163 45.565,19.919 46.034,19.841L89.873,12.5C90.335,12.423 90.781,12.593 91.076,12.914L91.093,12.929Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="nonZero"/>
+</vector>

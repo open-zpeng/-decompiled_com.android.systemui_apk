@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@drawable/bg_sysbar_overflow_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/btn_microphone_mute" android:visibility="gone" android:src="@drawable/ic_sysbar_microphone_mute" android:layout_marginHorizontal="@dimen/sysbar_overflow_item_margin" style="@style/StatusItemView.Background"/>
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/btn_auth_mode" android:visibility="gone" android:src="@drawable/ic_sysbar_remote_authorization" android:layout_marginHorizontal="@dimen/sysbar_overflow_item_margin" style="@style/StatusItemView.Background"/>
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/wireless_charge" android:visibility="gone" android:src="@drawable/ic_sysbar_wireless_charge" android:layout_marginHorizontal="@dimen/sysbar_overflow_item_margin" style="@style/StatusItemView.Background"/>
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/usb" android:src="@drawable/ic_sysbar_usb_general" android:layout_marginHorizontal="@dimen/sysbar_overflow_item_margin" style="@style/StatusItemView.Background"/>
+    <com.xiaopeng.xui.widget.XLinearLayout android:gravity="center" android:id="@+id/download_container" android:visibility="gone" android:layout_marginHorizontal="@dimen/sysbar_overflow_item_margin" style="@style/StatusItemView.Background"/>
+</com.xiaopeng.xui.widget.XLinearLayout>

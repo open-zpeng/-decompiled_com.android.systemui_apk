@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:height="24dp" android:width="24dp" android:viewportWidth="110" android:viewportHeight="110">
+    <path android:fillColor="@drawable/res_0x7f080133_ic_btn_musiccard_black__0" android:pathData="M55,55m-55,-0a55,55 0,1 0,110 -0a55,55 0,1 0,-110 -0" android:strokeColor="#00000000" android:strokeWidth="1" android:strokeAlpha="0.8019" android:fillAlpha="0.8019" android:fillType="nonZero"/>
+</vector>

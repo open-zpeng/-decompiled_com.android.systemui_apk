@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="52dp" android:width="52dp" android:viewportWidth="52" android:viewportHeight="52">
+    <path android:fillColor="@color/colorNaviCardSouIconDark" android:pathData="M21.3103,18.0033l3.8538,0l0,25.1634l-3.8538,0z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillAlpha="0.36" android:fillType="nonZero"/>
+    <path android:fillColor="@color/colorNaviCardSouIconLight" android:pathData="M22.8363,8.929L16.2025,18.9249C15.9607,19.2894 16.2868,19.7634 16.7117,19.6649L21.3102,18.5989L21.3102,20.9637C21.3102,27.6375 23.9494,34.0379 28.6472,38.757L33.436,43.5676L36.1611,40.8302L31.3722,36.0195C27.3972,32.0265 25.164,26.6107 25.164,20.9637L25.164,18.5989L29.7627,19.6649C30.1876,19.7634 30.5137,19.2894 30.2718,18.9249L23.638,8.929C23.4473,8.6417 23.0271,8.6417 22.8363,8.929Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="nonZero"/>
+</vector>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="start|center_vertical" android:id="@android:id/background" android:height="3dp">
+        <layer-list>
+            <item android:gravity="center" android:height="6dp" android:start="8dp" android:end="8dp">
+                <shape android:shape="rectangle">
+                    <corners android:radius="3dp"/>
+                    <solid android:color="@color/music_progress_bg_color"/>
+                </shape>
+            </item>
+            <item android:gravity="center_vertical" android:height="20dp">
+                <shape android:shape="rectangle">
+                    <corners android:radius="10dp"/>
+                    <solid android:color="@color/music_progress_bg_border_color"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:gravity="start|center_vertical" android:id="@android:id/secondaryProgress" android:height="6dp" android:start="8dp" android:end="8dp">
+        <scale android:scaleWidth="100%">
+            <shape android:shape="rectangle">
+                <corners android:radius="3dp"/>
+                <solid android:color="@color/music_progress_color"/>
+            </shape>
+        </scale>
+    </item>
+    <item android:gravity="start|center_vertical" android:id="@android:id/progress" android:height="6dp" android:start="8dp" android:end="8dp">
+        <scale android:scaleWidth="100%">
+            <shape android:shape="rectangle">
+                <corners android:radius="3dp"/>
+                <solid android:color="@color/music_progress_color"/>
+            </shape>
+        </scale>
+    </item>
+</layer-list>

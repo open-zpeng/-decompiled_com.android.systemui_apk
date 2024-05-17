@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/qs_panel_toggle_button" android:layout_width="@dimen/quick_menu_button_width" android:layout_height="@dimen/quick_menu_tile_height">
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/btn" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="56dp" android:layout_centerVertical="true" android:layout_marginStart="36dp" android:layout_alignParentStart="true"/>
+    <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_body_02_size" android:gravity="end|center_vertical" android:id="@+id/toggle_button_text" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="30dp" android:layout_alignParentEnd="true"/>
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/right_corner_sign" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:src="@drawable/ic_quickmenu_right_corner_sign" android:layout_alignParentTop="true" android:layout_marginEnd="10dp" android:layout_alignParentEnd="true"/>
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.infoflow.speech.ui.widget.SpeechListView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/view_speech_list" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.systemui.infoflow.speech.ui.widget.ScrollPageCardStack android:id="@+id/rv_widget_list" android:paddingTop="20dp" android:fadingEdgeLength="30dp" android:clipToPadding="false" android:layout_width="@dimen/card_width" android:layout_height="match_parent" android:layout_marginRight="-9dp" android:layout_alignParentRight="true" android:overScrollMode="always" android:requiresFadingEdge="vertical" android:defaultFocusHighlightEnabled="false"/>
+</com.xiaopeng.systemui.infoflow.speech.ui.widget.SpeechListView>

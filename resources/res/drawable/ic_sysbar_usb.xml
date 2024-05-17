@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_sysbar_usb_default" android:maxLevel="0"/>
+    <item android:drawable="@drawable/ic_sysbar_usb_storage" android:maxLevel="1"/>
+    <item android:drawable="@drawable/ic_sysbar_usb_media" android:maxLevel="2"/>
+    <item android:drawable="@drawable/ic_sysbar_usb_phone" android:maxLevel="3"/>
+    <item android:drawable="@drawable/ic_sysbar_usb_computer" android:maxLevel="4"/>
+    <item android:drawable="@drawable/ic_sysbar_usb_microphone" android:maxLevel="5"/>
+    <item android:drawable="@drawable/ic_sysbar_usb_general" android:maxLevel="6"/>
+</level-list>

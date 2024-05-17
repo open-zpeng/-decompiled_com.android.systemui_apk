@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent"/>
+            <size android:height="124dp" android:width="124dp"/>
+        </shape>
+    </item>
+    <item android:gravity="bottom|center_horizontal" android:height="6dp" android:width="32dp" android:drawable="@drawable/ic_app_selected" android:bottom="@dimen/navbar_item_selected_bar_margin_bottom"/>
+</layer-list>

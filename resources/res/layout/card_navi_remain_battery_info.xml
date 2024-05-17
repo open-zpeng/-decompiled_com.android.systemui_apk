@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.infoflow.navigation.view.RemainBatteryInfoView xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="horizontal" android:id="@+id/view_remain_battery" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0">
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedImageView android:id="@+id/img_small_end" android:layout_width="26dp" android:layout_height="26dp" android:src="@mipmap/ic_small_end" android:scaleType="centerCrop" android:layout_centerVertical="true"/>
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedTextView android:theme="@style/defaultFontTheme" android:textSize="28dp" android:textColor="@color/colorNaviText" android:id="@+id/tv_arrive_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp"/>
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedTextView android:theme="@style/defaultFontTheme" android:textSize="28dp" android:textColor="@color/colorNaviText" android:id="@+id/tv_remain_battery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp"/>
+</com.xiaopeng.systemui.infoflow.navigation.view.RemainBatteryInfoView>

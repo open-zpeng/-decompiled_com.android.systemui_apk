@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:stateListAnimator="@animator/anim_btn_clicked">
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/app_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/app_icon_shadow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/app_icon"/>
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/psn_title" android:id="@+id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="40dp" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0" style="@style/defaultFontTheme"/>
+</com.xiaopeng.xui.widget.XConstraintLayout>

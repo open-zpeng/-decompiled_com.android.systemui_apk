@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.infoflow.theme.AlphaOptimizedLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginHorizontal="63dp">
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedTextView android:textSize="26sp" android:textColor="@color/colorWeatherLight" android:id="@+id/item_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:fontFamily="@string/x_font_typeface_medium"/>
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedImageView android:id="@+id/item_weather_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:src="@drawable/weather_sunny"/>
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedTextView android:textSize="36sp" android:textColor="@color/colorWeatherTemp" android:id="@+id/item_weather_temp_max" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@string/x_font_typeface_number"/>
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedTextView android:textSize="16sp" android:textColor="@color/colorWeatherLight" android:id="@+id/item_weather_temp_min" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@string/x_font_typeface_medium"/>
+</com.xiaopeng.systemui.infoflow.theme.AlphaOptimizedLinearLayout>

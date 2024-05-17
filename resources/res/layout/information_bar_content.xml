@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.ui.window.StatusBarWindow xmlns:android="http://schemas.android.com/apk/res/android" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.systemui.ui.widget.AlphaOptimizedFrameLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/information_bar" android:background="@drawable/bg_infobar" android:descendantFocusability="afterDescendants" android:layout_width="match_parent" android:layout_height="match_parent" android:accessibilityPaneTitle="@string/status_bar">
+        <com.xiaopeng.systemui.ui.widget.AnimatedTextView android:textSize="38dp" android:textColor="@color/color_home_text_selector" android:gravity="center" android:layout_gravity="center" android:id="@+id/btn_home" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="24dp" android:text="@string/infobar_home" android:drawableLeft="@drawable/ic_mid_infobar_home" android:drawablePadding="12dp"/>
+        <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:gravity="center" android:layout_gravity="center" android:id="@+id/btn_exchange" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_exchange_first" android:stateListAnimator="@animator/anim_btn_clicked"/>
+    </com.xiaopeng.systemui.ui.widget.AlphaOptimizedFrameLayout>
+</com.xiaopeng.systemui.ui.window.StatusBarWindow>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="colorBatteryLow">#FFD57F00</string>
+    <string name="colorBatteryNormal">#A8FFFFFF</string>
+    <string name="colorBatteryWarning">#FFFF5746</string>
+</resources>

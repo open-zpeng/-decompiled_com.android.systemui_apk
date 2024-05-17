@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.infoflow.checking.CarCheckView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/view_car_check" android:background="@mipmap/bg_card_origin_big" android:visibility="gone" android:layout_width="@dimen/check_view_width" android:layout_height="@dimen/check_view_height" android:layout_marginTop="@dimen/check_view_margin_top" android:layout_alignParentRight="true">
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedImageView android:id="@+id/img_car" android:layout_width="@dimen/check_view_car_width" android:layout_height="@dimen/check_view_car_height" android:layout_marginTop="40dp" android:src="@mipmap/ic_checking_car" android:layout_centerHorizontal="true"/>
+    <include layout="@layout/view_checked"/>
+    <include layout="@layout/view_checking"/>
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedImageView android:id="@+id/img_check_quit" android:background="@drawable/x_btn_icon_bg_selector" android:layout_width="64dp" android:layout_height="64dp" android:layout_marginLeft="54dp" android:layout_marginTop="24dp" android:src="@drawable/x_ic_small_close" android:scaleType="center"/>
+</com.xiaopeng.systemui.infoflow.checking.CarCheckView>

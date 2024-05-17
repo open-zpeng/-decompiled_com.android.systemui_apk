@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout android:id="@+id/layout_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/id_image_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_centerInParent="true"/>
+    <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/id_highlight_view" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+</com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="18dp"/>
+            <gradient android:startColor="@color/interactive_osd_progressbar_background" android:endColor="@color/interactive_osd_progressbar_background" android:angle="270" android:centerY="0.75" android:centerColor="@color/interactive_osd_progressbar_background"/>
+        </shape>
+    </item>
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <corners android:radius="18dp"/>
+                <padding android:left="4dp" android:top="4dp" android:right="4dp" android:bottom="4dp"/>
+                <gradient android:startColor="@android:color/transparent" android:endColor="@android:color/transparent" android:angle="270" android:centerY="0.75" android:centerColor="@android:color/transparent"/>
+            </shape>
+        </clip>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip android:gravity="left" android:clipOrientation="horizontal">
+            <shape>
+                <corners android:radius="14dp"/>
+                <padding android:left="4dp" android:top="4dp" android:right="4dp" android:bottom="4dp"/>
+                <gradient android:startColor="@color/interactive_osd_progressbar_progress" android:endColor="@color/interactive_osd_progressbar_progress" android:angle="270" android:centerY="0.75" android:centerColor="@color/interactive_osd_progressbar_progress"/>
+            </shape>
+        </clip>
+    </item>
+</layer-list>

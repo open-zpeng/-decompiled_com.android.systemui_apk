@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="100" android:drawable="@drawable/infoflow_asr_nlu_loading_00"/>
+    <item android:duration="100" android:drawable="@drawable/infoflow_asr_nlu_loading_01"/>
+    <item android:duration="100" android:drawable="@drawable/infoflow_asr_nlu_loading_02"/>
+    <item android:duration="100" android:drawable="@drawable/infoflow_asr_nlu_loading_03"/>
+    <item android:duration="100" android:drawable="@drawable/infoflow_asr_nlu_loading_04"/>
+    <item android:duration="100" android:drawable="@drawable/infoflow_asr_nlu_loading_05"/>
+    <item android:duration="100" android:drawable="@drawable/infoflow_asr_nlu_loading_06"/>
+    <item android:duration="100" android:drawable="@drawable/infoflow_asr_nlu_loading_07"/>
+    <item android:duration="100" android:drawable="@drawable/infoflow_asr_nlu_loading_08"/>
+    <item android:duration="100" android:drawable="@drawable/infoflow_asr_nlu_loading_09"/>
+</animation-list>

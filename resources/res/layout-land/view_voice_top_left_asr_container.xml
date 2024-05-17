@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.infoflow.speech.ui.widget.VoiceWaveViewContainer xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/top_left_asr_container" android:background="@color/speech_asr_window_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/left_asr_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/speech_top_left_asr_margin_start" layout="@layout/layout_asr_container"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/left_hint_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.xiaopeng.systemui.infoflow.theme.AnimatedTextView android:textSize="29sp" android:textColor="@color/infoflow_multiperson_asr_normal" android:ellipsize="start" android:gravity="center_vertical" android:id="@+id/tv_hint" android:background="@drawable/bg_hint" android:paddingTop="0dp" android:paddingBottom="0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="190dp" android:singleLine="true" android:paddingStart="28dp" android:paddingEnd="30dp" android:layout_marginStart="118dp" style="@style/defaultFontTheme"/>
+    </RelativeLayout>
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedTextView android:id="@+id/tv_tts_echo" android:visibility="gone" android:layout_marginTop="@dimen/speech_asr_top_margin_top" android:layout_marginStart="@dimen/speech_top_left_echo_start" style="@style/speech_tv_tts_echo"/>
+</com.xiaopeng.systemui.infoflow.speech.ui.widget.VoiceWaveViewContainer>

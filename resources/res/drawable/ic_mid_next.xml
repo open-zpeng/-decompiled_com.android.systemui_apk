@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="56dp" android:width="56dp" android:viewportWidth="56" android:viewportHeight="56">
+    <path android:fillColor="@color/music_btn_color" android:pathData="M46,8C48.2091,8 50,9.7909 50,12L50,44C50,46.2091 48.2091,48 46,48C43.7909,48 42,46.2091 42,44L42,12C42,9.7909 43.7909,8 46,8ZM11.5,10.4534C12.5356,10.4534 13.5502,10.7458 14.4269,11.2969L33.5919,23.3435C36.1636,24.96 36.938,28.3552 35.3215,30.9269C34.8821,31.626 34.291,32.2171 33.5919,32.6565L14.4269,44.7031C11.8552,46.3196 8.46,45.5452 6.8435,42.9735C6.2924,42.0967 6,41.0822 6,40.0466L6,15.9534C6,12.9159 8.4624,10.4534 11.5,10.4534Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="evenOdd"/>
+</vector>

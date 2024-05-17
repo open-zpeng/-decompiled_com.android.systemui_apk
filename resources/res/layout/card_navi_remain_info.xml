@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.infoflow.navigation.view.RemainInfoView xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="horizontal" android:id="@+id/view_remind_info" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedImageView android:id="@+id/img_small_navi" android:layout_width="28dp" android:layout_height="28dp" android:src="@drawable/ic_small_naiv2" android:scaleType="centerCrop"/>
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedTextView android:theme="@style/defaultFontTheme" android:textSize="28dp" android:textColor="@color/colorNaviText" android:id="@+id/tv_remain_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp"/>
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedImageView android:id="@+id/img_small_time" android:layout_width="28dp" android:layout_height="28dp" android:layout_marginLeft="28dp" android:src="@drawable/ic_small_timeconsuming" android:scaleType="centerCrop"/>
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedTextView android:theme="@style/defaultFontTheme" android:textSize="28dp" android:textColor="@color/colorNaviText" android:id="@+id/tv_remain_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_centerVertical="true"/>
+</com.xiaopeng.systemui.infoflow.navigation.view.RemainInfoView>

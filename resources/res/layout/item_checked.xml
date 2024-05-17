@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="@dimen/checked_item_width" android:layout_height="@dimen/checked_item_height">
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedTextView android:theme="@style/defaultFontTheme" android:textSize="@dimen/check_title_size" android:textColor="@color/colorCheckItemTitle" android:id="@+id/tv_checked_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/checked_item_margin_start" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedTextView android:theme="@style/defaultFontTheme" android:textSize="@dimen/check_title_size" android:textColor="@color/colorCheckError" android:id="@+id/tv_checked_item_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/checked_item_margin_start" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <set>
+            <objectAnimator android:interpolator="@android:interpolator/accelerate_decelerate" android:duration="@integer/tile_anim_time" android:valueFrom="56" android:valueTo="50" android:valueType="floatType" android:propertyName="textSize"/>
+        </set>
+    </item>
+    <item>
+        <set>
+            <objectAnimator android:duration="@integer/tile_anim_time" android:valueFrom="50" android:valueTo="56" android:valueType="floatType" android:propertyName="textSize"/>
+        </set>
+    </item>
+</selector>

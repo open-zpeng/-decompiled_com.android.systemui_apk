@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.ui.window.NavigationBarWindow xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@+id/stub_infoflow" android:layout="@layout/infoflow" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.xiaopeng.systemui.ui.widget.AlphaOptimizedFrameLayout android:id="@+id/navigation_bar" android:layout_width="130dp" android:layout_height="match_parent">
+        <com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout android:id="@+id/action_panel_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/action" android:visibility="gone" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="110dp" android:src="@drawable/ic_close_driver" android:scaleType="center" android:layout_centerHorizontal="true"/>
+        </com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout>
+        <com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout android:id="@+id/quick_panel_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout android:id="@+id/navigation_bar_slider" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <com.xiaopeng.systemui.ui.widget.AlphaOptimizedLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <com.xiaopeng.systemui.ui.widget.AlphaOptimizedLinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="112dp" android:layout_height="wrap_content" android:layout_marginTop="278dp">
+                        <com.xiaopeng.systemui.ui.widget.TemperatureTextView android:id="@+id/quick_temperature" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ttvText1Size="40px" app:ttvText2Size="18dp" app:ttvTextColor="@color/colorTextTemperatureNormal"/>
+                    </com.xiaopeng.systemui.ui.widget.AlphaOptimizedLinearLayout>
+                    <com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout android:layout_width="112dp" android:layout_height="428dp" android:layout_marginTop="32dp">
+                        <com.xiaopeng.systemui.ui.widget.AnimatedProgressBar android:id="@+id/hvac_progress_bar" android:layout_width="112dp" android:layout_height="428dp" android:progress="360" android:layout_centerInParent="true" style="@style/AnimatedProgressBar.Vertical"/>
+                    </com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout>
+                    <com.xiaopeng.systemui.ui.widget.AnimatedTextView android:textSize="24dp" android:textColor="@color/color_text_hvac_sync_selector" android:gravity="center" android:id="@+id/havc_synchronized" android:background="@drawable/bg_navbar_hvac_synchronized" android:layout_width="112dp" android:layout_height="56dp" android:layout_marginTop="48dp" android:text="@string/text_synchronized" android:includeFontPadding="false" android:fontFamily="@string/font_family_text"/>
+                </com.xiaopeng.systemui.ui.widget.AlphaOptimizedLinearLayout>
+            </com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout>
+        </com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout>
+        <com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout android:id="@+id/navigation_panel_container" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.xiaopeng.systemui.ui.widget.AlphaOptimizedLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/item_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.xiaopeng.systemui.ui.widget.AlphaOptimizedLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/top_items" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.xiaopeng.systemui.ui.widget.NavigationItemView android:id="@+id/top3" android:background="@drawable/bg_navbar_item" android:layout_marginTop="@dimen/navbar_app_item_margin_top" style="@style/NavigationHomeItemView.Vertical"/>
+                    <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:background="@color/navBarItemDividerColor" android:layout_width="60dp" android:layout_height="2dp" android:layout_marginTop="15dp"/>
+                    <com.xiaopeng.systemui.ui.widget.NavigationItemView android:id="@+id/top2" android:background="@drawable/bg_navbar_item" android:layout_marginTop="@dimen/navbar_item_margin_normal_top" style="@style/NavigationItemView.Vertical"/>
+                    <com.xiaopeng.systemui.ui.widget.NavigationItemView android:id="@+id/top1" android:background="@drawable/bg_navbar_item" android:layout_marginTop="@dimen/navbar_item_margin_medium_vertical" style="@style/NavigationItemView.Vertical"/>
+                </com.xiaopeng.systemui.ui.widget.AlphaOptimizedLinearLayout>
+                <com.xiaopeng.systemui.ui.widget.AlphaOptimizedLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.xiaopeng.systemui.ui.widget.HvacComboView android:id="@+id/hvac_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginVertical="@dimen/navbar_item_margin_min_vertical" style="@style/HvacComboView.Vertical.Land"/>
+                </com.xiaopeng.systemui.ui.widget.AlphaOptimizedLinearLayout>
+                <com.xiaopeng.systemui.ui.widget.AlphaOptimizedLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/bottom_items" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.xiaopeng.systemui.ui.widget.NavigationItemView android:id="@+id/bottom1" android:background="@drawable/bg_navbar_item" style="@style/NavigationItemView.Vertical"/>
+                    <com.xiaopeng.systemui.ui.widget.NavigationItemView android:id="@+id/bottom2" android:background="@drawable/bg_navbar_item" android:layout_marginTop="@dimen/navbar_item_margin_medium_vertical" style="@style/NavigationItemView.Vertical"/>
+                    <LinearLayout android:orientation="vertical" android:id="@+id/nullbtn" android:clickable="true" android:layout_width="match_parent" android:layout_height="210dp"/>
+                </com.xiaopeng.systemui.ui.widget.AlphaOptimizedLinearLayout>
+            </com.xiaopeng.systemui.ui.widget.AlphaOptimizedLinearLayout>
+        </com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout>
+    </com.xiaopeng.systemui.ui.widget.AlphaOptimizedFrameLayout>
+</com.xiaopeng.systemui.ui.window.NavigationBarWindow>

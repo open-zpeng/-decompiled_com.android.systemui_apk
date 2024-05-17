@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/view_infoflow" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="58dp" android:layout_marginHorizontal="54dp">
+        <com.xiaopeng.systemui.ui.widget.AppIconContainer android:id="@+id/img_app_map" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:imgSrc="@mipmap/ic_app_map"/>
+        <com.xiaopeng.systemui.ui.widget.AppIconContainer android:id="@+id/img_app_music_login" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:imgSrc="@mipmap/ic_app_spotify"/>
+        <com.xiaopeng.systemui.ui.widget.AppIconContainer android:id="@+id/img_app_music" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:imgSrc="@mipmap/ic_app_music"/>
+        <com.xiaopeng.systemui.ui.widget.AppIconContainer android:id="@+id/img_app_fm" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:imgSrc="@mipmap/ic_app_fm"/>
+        <com.xiaopeng.systemui.ui.widget.AppIconContainer android:id="@+id/img_app_phone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:imgSrc="@mipmap/ic_app_phone"/>
+        <com.xiaopeng.systemui.ui.widget.AppIconContainer android:id="@+id/img_app_setting" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:imgSrc="@mipmap/ic_app_setting"/>
+        <com.xiaopeng.systemui.ui.widget.AppIconContainer android:id="@+id/img_app_list" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:imgSrc="@mipmap/ic_app_list"/>
+    </LinearLayout>
+    <com.xiaopeng.systemui.infoflow.theme.XTextView android:textSize="24dp" android:textColor="@color/calling_tip" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/tv_calling_tip" android:background="@drawable/bg_xpvoice_noservice" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="260dp" android:text="@string/default_xp_noservice_msg" android:maxLines="1" android:maxEms="13"/>
+</RelativeLayout>

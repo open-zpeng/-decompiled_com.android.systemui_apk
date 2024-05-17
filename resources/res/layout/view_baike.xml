@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.infoflow.speech.ui.widget.BaikeView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/view_baike" android:background="@mipmap/bg_speech_view" android:layout_width="500dp" android:layout_height="720dp" android:layout_centerHorizontal="true">
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedImageView android:id="@+id/img_small_icon" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="40dp" android:layout_marginTop="40dp" android:src="@mipmap/ic_search" android:scaleType="centerCrop"/>
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedTextView android:theme="@style/defaultFontTheme" android:textSize="24dp" android:textColor="@color/colorSpeechTypeTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="40dp" android:text="@string/xiaopeng_baike" android:layout_toRightOf="@+id/img_small_icon"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="114dp" android:layout_centerHorizontal="true">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.xiaopeng.systemui.infoflow.theme.AnimatedImageView android:id="@+id/img_quotation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="32dp" android:src="@mipmap/ic_quotation" android:layout_alignParentRight="true"/>
+            <com.xiaopeng.systemui.infoflow.theme.AnimatedTextView android:theme="@style/defaultFontTheme" android:textSize="40dp" android:textColor="@color/colorSpeechBaikeTitle" android:id="@+id/tv_title" android:paddingLeft="32dp" android:paddingRight="32dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="108dp" android:layout_below="@+id/img_quotation"/>
+            <com.xiaopeng.systemui.infoflow.theme.AnimatedTextView android:theme="@style/defaultFontTheme" android:textSize="30dp" android:textColor="@color/colorSpeechBaikeContent" android:id="@+id/tv_content" android:paddingLeft="32dp" android:paddingRight="32dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:layout_below="@+id/tv_title"/>
+        </RelativeLayout>
+    </ScrollView>
+</com.xiaopeng.systemui.infoflow.speech.ui.widget.BaikeView>

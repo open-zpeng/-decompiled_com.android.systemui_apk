@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="24dp" android:width="24dp" android:viewportWidth="24" android:viewportHeight="24">
+    <path android:fillColor="@color/colorMediaCardEnterSvg" android:pathData="M24,0l-0,24l-24,0l-0,-24z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillAlpha="0.02" android:fillType="evenOdd"/>
+    <path android:fillColor="@color/colorMediaCardEnterSvg" android:pathData="M5.9762,7.8611C5.3472,7.322 4.4002,7.3948 3.8611,8.0238C3.322,8.6528 3.3948,9.5998 4.0238,10.1389L11.0238,16.1389C11.5855,16.6204 12.4145,16.6204 12.9762,16.1389L19.9762,10.1389C20.6052,9.5998 20.678,8.6528 20.1389,8.0238C19.5998,7.3948 18.6528,7.322 18.0238,7.8611L12,13.0244L5.9762,7.8611Z" android:strokeColor="#00000000" android:strokeWidth="1" android:strokeAlpha="0.5558" android:fillAlpha="0.5558" android:fillType="nonZero"/>
+</vector>

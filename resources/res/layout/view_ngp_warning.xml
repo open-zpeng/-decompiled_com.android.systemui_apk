@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.infoflow.speech.ui.widget.NgpWarningView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedImageView android:id="@+id/ngp_warning_l" android:background="@drawable/mask_takeover_strong_left" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedImageView android:id="@+id/ngp_warning_r" android:background="@drawable/mask_takeover_strong_right" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true"/>
+</com.xiaopeng.systemui.infoflow.speech.ui.widget.NgpWarningView>

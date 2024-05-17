@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.infoflow.message.view.CardView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="@dimen/card_width" android:layout_height="@dimen/card_height">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.xiaopeng.systemui.infoflow.theme.AnimatedImageView android:id="@+id/img_shadow" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@mipmap/bg_card_shadow"/>
+        <com.xiaopeng.systemui.infoflow.theme.AnimatedImageView android:id="@+id/img_background" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@mipmap/bg_card_origin"/>
+    </RelativeLayout>
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedImageView android:id="@+id/img_open_indicator" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:src="@mipmap/ic_card_open_indicator" android:layout_centerVertical="true"/>
+    <RelativeLayout android:id="@+id/card_content" android:layout_width="@dimen/card_content_width" android:layout_height="match_parent" android:layout_centerInParent="true">
+        <com.xiaopeng.systemui.infoflow.theme.AnimatedImageView android:id="@+id/img_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/card_type_icon_margin_left" android:layout_marginTop="@dimen/card_type_icon_margin_top" android:src="@drawable/ic_card_carcontrol_type"/>
+        <com.xiaopeng.systemui.infoflow.theme.AnimatedTextView android:theme="@style/defaultFontTheme" android:textSize="@dimen/cardTypeTvSize" android:textColor="@color/colorTypeString" android:id="@+id/tv_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/card_type_tv_margin_left" android:layout_marginTop="@dimen/card_type_tv_margin_top" android:text="@string/car_control" android:singleLine="true"/>
+        <ViewStub android:id="@+id/stub_card_car_control_gear_p" android:layout="@layout/card_car_control_gear_p" android:layout_width="match_parent" android:layout_height="245dp" android:layout_below="@+id/tv_type"/>
+        <ViewStub android:id="@+id/stub_card_car_control_gear_not_p" android:layout="@layout/card_car_control_gear_not_p" android:layout_width="match_parent" android:layout_height="245dp" android:layout_below="@+id/tv_type"/>
+    </RelativeLayout>
+</com.xiaopeng.systemui.infoflow.message.view.CardView>

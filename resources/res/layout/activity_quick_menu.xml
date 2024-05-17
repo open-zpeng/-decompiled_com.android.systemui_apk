@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/root_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.systemui.infoflow.theme.XRelativeLayout android:gravity="center_horizontal" android:id="@+id/quick_menu_layout" android:background="@drawable/bg_qs_rootview" android:paddingTop="@dimen/quick_menu_padding_top" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:gravity="center" android:id="@+id/quick_menu_bar" android:layout_width="match_parent" android:layout_height="20dp" android:layout_marginBottom="114dp" android:layout_alignParentBottom="true">
+        <com.xiaopeng.xui.widget.XImageView android:id="@+id/quick_menu_bar_iv" android:background="@drawable/quick_menu_bar_background_land" android:layout_width="400dp" android:layout_height="8dp" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</RelativeLayout>

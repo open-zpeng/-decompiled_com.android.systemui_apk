@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="88dp" android:width="88dp" android:viewportWidth="88" android:viewportHeight="88">
+    <path android:fillColor="@color/psn_icon" android:pathData="M36,48C38.2091,48 40,49.7909 40,52L40,60C40,62.2091 38.2091,64 36,64L28,64C25.7909,64 24,62.2091 24,60L24,52C24,49.7909 25.7909,48 28,48L36,48ZM60,48C62.2091,48 64,49.7909 64,52L64,60C64,62.2091 62.2091,64 60,64L52,64C49.7909,64 48,62.2091 48,60L48,52C48,49.7909 49.7909,48 52,48L60,48ZM36,24C38.2091,24 40,25.7909 40,28L40,36C40,38.2091 38.2091,40 36,40L28,40C25.7909,40 24,38.2091 24,36L24,28C24,25.7909 25.7909,24 28,24L36,24ZM60,24C62.2091,24 64,25.7909 64,28L64,36C64,38.2091 62.2091,40 60,40L52,40C49.7909,40 48,38.2091 48,36L48,28C48,25.7909 49.7909,24 52,24L60,24Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="evenOdd"/>
+</vector>

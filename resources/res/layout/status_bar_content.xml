@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.ui.widget.AlphaOptimizedFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/status_bar" android:descendantFocusability="afterDescendants" android:layout_width="match_parent" android:layout_height="@dimen/status_bar_height" android:accessibilityPaneTitle="@string/status_bar">
+    <RelativeLayout android:id="@+id/status_bar_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/left_container" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout android:id="@+id/driver_hot_region" android:layout_width="@dimen/status_bar_driver_hot_region_width" android:layout_height="match_parent">
+                <com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout android:id="@+id/miniprog_close_container" android:visibility="gone" android:layout_width="@dimen/sysbar_item_width" android:layout_height="@dimen/sysbar_item_height" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                    <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/miniprog_close" android:src="@drawable/ic_sysbar_close" android:layout_centerInParent="true" style="@style/StatusItemView.Background"/>
+                </com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout>
+                <com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout android:id="@+id/driver_container" android:layout_width="@dimen/sysbar_item_width" android:layout_height="@dimen/sysbar_item_height" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                    <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/driver" android:src="@drawable/ic_sysbar_account_no_people" android:layout_centerInParent="true" style="@style/StatusItemView.Account.Background"/>
+                </com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout>
+            </com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout>
+            <com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout android:id="@+id/lock_container" android:layout_marginLeft="@dimen/sysbar_item_margin" style="@style/StatusItemView.Background">
+                <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/lock" android:layout_width="@dimen/item_icon_size" android:layout_height="@dimen/item_icon_size" android:src="@drawable/ic_sysbar_control_lock"/>
+            </com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout>
+            <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/defrost_front" android:visibility="gone" android:layout_marginLeft="@dimen/sysbar_item_margin" android:src="@drawable/ic_sysbar_defrost_front" style="@style/StatusItemView.Defrost.Background"/>
+            <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/defrost_back" android:visibility="gone" android:layout_marginLeft="@dimen/sysbar_item_margin" android:src="@drawable/ic_sysbar_defrost_back" style="@style/StatusItemView.Defrost.Background"/>
+            <RelativeLayout android:layout_gravity="left" android:id="@+id/btn_seatventheat" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sysbar_item_margin">
+                <com.xiaopeng.xui.widget.XImageView android:id="@+id/btn_seatventheat_default" android:visibility="visible" android:src="@drawable/ic_mid_statusbar_seat" style="@style/StatusItemView.Background"/>
+                <com.xiaopeng.xui.widget.XImageView android:id="@+id/btn_seatvent_level" android:visibility="gone" android:src="@drawable/ic_mid_statusbar_ventilate" style="@style/StatusItemView.Background"/>
+                <com.xiaopeng.xui.widget.XImageView android:id="@+id/btn_seatheat_level_only" android:visibility="gone" android:src="@drawable/ic_mid_seatheating" style="@style/StatusItemView.Background"/>
+                <com.xiaopeng.xui.widget.XImageView android:id="@+id/btn_seatheat_level" android:visibility="gone" android:src="@drawable/ic_mid_statusbar_heating" style="@style/StatusItemView.Background"/>
+            </RelativeLayout>
+            <com.xiaopeng.xui.widget.XImageView android:id="@+id/btn_microphone_mute" android:visibility="gone" android:layout_marginLeft="@dimen/sysbar_item_margin" android:src="@drawable/ic_sysbar_microphone_mute" style="@style/StatusItemView.Background"/>
+            <com.xiaopeng.xui.widget.XImageView android:id="@+id/btn_child_mode" android:visibility="gone" android:layout_marginLeft="@dimen/sysbar_item_margin" android:src="@drawable/ic_sysbar_child_mode" style="@style/StatusItemView.Background"/>
+            <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/btn_auth_mode" android:visibility="gone" android:layout_marginLeft="@dimen/sysbar_item_margin" android:src="@drawable/ic_sysbar_remote_authorization" style="@style/StatusItemView.Background"/>
+            <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/wireless_charge" android:visibility="gone" android:layout_marginLeft="@dimen/sysbar_item_margin" android:src="@drawable/ic_sysbar_wireless_charge" style="@style/StatusItemView.Background"/>
+            <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/usb" android:layout_marginLeft="@dimen/sysbar_item_margin" android:src="@drawable/ic_sysbar_usb_general" style="@style/StatusItemView.Background"/>
+            <com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout android:id="@+id/download_container" android:visibility="gone" android:layout_marginLeft="@dimen/sysbar_item_margin" style="@style/StatusItemView.Background">
+                <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/download" android:layout_width="@dimen/item_icon_size" android:layout_height="@dimen/item_icon_size" android:src="@drawable/anim_sysbar_download" android:layout_centerInParent="true"/>
+            </com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout>
+            <com.xiaopeng.xui.widget.XImageView android:id="@+id/btn_overflow" android:visibility="gone" android:layout_marginLeft="@dimen/sysbar_item_margin" style="@style/StatusItemView.Background"/>
+        </LinearLayout>
+        <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/logo" android:src="@drawable/ic_sysbar_logo" android:layout_centerInParent="true" style="@style/StatusItemView.Logo.Background"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="@dimen/sysbar_item_margin_right" android:layout_alignParentRight="true">
+            <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/iv_disable_mode" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sysbar_item_margin" android:src="@drawable/ic_disable_mode_test"/>
+            <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/btn_repair_mode" android:visibility="gone" android:layout_marginLeft="@dimen/sysbar_item_margin" android:src="@drawable/ic_sysbar_repair_mode" style="@style/StatusItemView.Background"/>
+            <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/btn_diagnostic_mode" android:visibility="gone" android:layout_marginLeft="@dimen/sysbar_item_margin" android:src="@drawable/ic_sysbar_diagnostic_mode" style="@style/StatusItemView.Background"/>
+            <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sysbar_item_margin">
+                <com.xiaopeng.xui.widget.XImageView android:id="@+id/srs_img" android:visibility="visible" android:src="@drawable/ic_mid_paboff" style="@style/StatusItemView.Background"/>
+                <com.xiaopeng.systemui.infoflow.theme.XTextView android:textSize="14dp" android:textColor="@color/colorTextNormal" android:id="@+id/srs_txt" android:visibility="visible" android:layout_width="78dp" android:layout_height="wrap_content" android:fontFamily="@string/x_font_typeface_medium" style="@style/StatusItemView.Background"/>
+            </LinearLayout>
+            <com.xiaopeng.systemui.ui.widget.AlphaOptimizedLinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/energy_container" android:background="@drawable/bg_sysbar_item" android:layout_width="@dimen/sysbar_item_width" android:layout_height="@dimen/sysbar_item_height" android:layout_marginLeft="@dimen/sysbar_item_margin">
+                <com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/iv_charging_outer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sysbar_battery_0"/>
+                    <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/iv_charging" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/anim_sysbar_battery"/>
+                    <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/iv_lightening" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sysbar_battery_flash" android:layout_centerInParent="true"/>
+                </com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout>
+            </com.xiaopeng.systemui.ui.widget.AlphaOptimizedLinearLayout>
+            <com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout android:layout_width="@dimen/sysbar_item_width" android:layout_height="@dimen/sysbar_item_height" android:layout_marginLeft="@dimen/sysbar_item_margin">
+                <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/bluetooth" android:src="@drawable/ic_sysbar_bluetooth" style="@style/StatusItemView.Background"/>
+            </com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout>
+            <com.xiaopeng.systemui.ui.widget.AlphaOptimizedLinearLayout android:orientation="horizontal" android:id="@+id/network_status_container" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/sysbar_item_margin" android:paddingHorizontal="16dp" style="@style/StatusItemView.Background">
+                <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/wifi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sysbar_wifi"/>
+                <com.xiaopeng.systemui.ui.widget.AlphaOptimizedLinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/signal_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+                    <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/signal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sysbar_signal" android:layout_centerInParent="true"/>
+                </com.xiaopeng.systemui.ui.widget.AlphaOptimizedLinearLayout>
+            </com.xiaopeng.systemui.ui.widget.AlphaOptimizedLinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</com.xiaopeng.systemui.ui.widget.AlphaOptimizedFrameLayout>

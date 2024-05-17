@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/music_btn_height" android:width="@dimen/music_btn_width">
+        <shape>
+            <corners android:topLeftRadius="16dp" android:topRightRadius="4dp" android:bottomLeftRadius="16dp" android:bottomRightRadius="4dp"/>
+            <solid android:color="@color/music_btn_bg"/>
+        </shape>
+    </item>
+    <item android:gravity="center" android:drawable="@drawable/ic_mid_last"/>
+</layer-list>

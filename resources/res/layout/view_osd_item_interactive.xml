@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.xiaopeng.systemui.ui.widget.AnimatedProgressBar android:id="@+id/large_progressbar" android:layout_width="match_parent" android:layout_height="144dp" app:apbTextEnable="false" style="@style/AnimatedProgressBar.InteractiveOsd.Horizontal"/>
+    <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/large_icon" android:layout_width="56dp" android:layout_height="56dp" android:layout_marginLeft="44dp" android:layout_centerVertical="true"/>
+    <com.xiaopeng.systemui.ui.widget.AnimatedTextView android:textSize="31sp" android:textColor="@color/osdInteractiveTextColor" android:id="@+id/volume_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:fontFamily="@string/font_family_text"/>
+</com.xiaopeng.systemui.ui.widget.AlphaOptimizedRelativeLayout>

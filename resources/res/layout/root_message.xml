@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.infoflow.message.MessageRootView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/view_message_root" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/rootview_margin_top">
+    <com.xiaopeng.systemui.infoflow.message.view.CardStack android:id="@+id/cardStack" android:focusable="false" android:fadingEdgeLength="200dp" android:layout_width="@dimen/card_width" android:layout_height="match_parent" android:layout_alignParentRight="true" android:overScrollMode="always" android:requiresFadingEdge="vertical" android:defaultFocusHighlightEnabled="false"/>
+</com.xiaopeng.systemui.infoflow.message.MessageRootView>

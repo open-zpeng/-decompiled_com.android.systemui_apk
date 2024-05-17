@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="22dp" android:width="42dp" android:viewportWidth="42" android:viewportHeight="22">
+    <path android:fillColor="@color/color_infoflow_route_battery_progress_selector" android:pathData="M4,0L33,0C35.2091,0 37,1.7909 37,4L37,18C37,20.2091 35.2091,22 33,22L4,22C1.7909,22 0,20.2091 0,18L0,4C0,1.7909 1.7909,0 4,0ZM4,3C3.4477,3 3,3.4477 3,4L3,18C3,18.5523 3.4477,19 4,19L33,19C33.5523,19 34,18.5523 34,18L34,4C34,3.4477 33.5523,3 33,3L4,3ZM40.5,7C41.3284,7 42,7.6716 42,8.5L42,13.5C42,14.3284 41.3284,15 40.5,15C39.6716,15 39,14.3284 39,13.5L39,8.5C39,7.6716 39.6716,7 40.5,7Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="nonZero"/>
+</vector>

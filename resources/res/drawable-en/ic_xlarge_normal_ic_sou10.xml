@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="120dp" android:width="120dp" android:viewportWidth="120" android:viewportHeight="120">
+    <path android:fillColor="@color/colorNaviCardSouIconLight" android:pathData="M71.071,66.175l19.929,37.825l-62,0l19.929,-37.825z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillAlpha="0.36" android:fillType="evenOdd"/>
+    <path android:fillColor="#ffffff" android:pathData="M57.786,70.625l4.429,0l0,6.675l-4.429,0z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="nonZero"/>
+    <path android:fillColor="#ffffff" android:pathData="M57.786,81.75l4.429,0l0,6.675l-4.429,0z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="nonZero"/>
+    <path android:fillColor="#ffffff" android:pathData="M62.214,92.875l-4.429,0l0,6.675l4.429,0z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="nonZero"/>
+    <path android:fillColor="#ffffff" android:pathData="M37.857,37.25a22.143,22.25 0,1 0,44.286 0a22.143,22.25 0,1 0,-44.286 0z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillAlpha="0.8" android:fillType="nonZero"/>
+    <path android:fillColor="#de0000" android:pathData="M42.286,37.25a17.714,17.8 0,1 0,35.429 0a17.714,17.8 0,1 0,-35.429 0z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="nonZero"/>
+    <path android:fillColor="#ffffff" android:pathData="M52.914,37.25a7.086,7.12 0,1 0,14.171 0a7.086,7.12 0,1 0,-14.171 0z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="nonZero"/>
+</vector>

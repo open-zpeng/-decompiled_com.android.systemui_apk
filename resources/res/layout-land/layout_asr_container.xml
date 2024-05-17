@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/asr_container" android:background="#000000ff" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedTextView android:textSize="29dp" android:textColor="@color/infoflow_multiperson_asr_normal" android:ellipsize="start" android:gravity="start|center_vertical" android:id="@+id/tv_speech_show" android:background="@drawable/bg_asr_top_left" android:paddingTop="0dp" android:paddingBottom="0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/speech_asr_layout_min_width" android:singleLine="true" android:paddingStart="25dp" android:paddingEnd="30dp" style="@style/defaultFontTheme"/>
+</RelativeLayout>

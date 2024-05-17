@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.infoflow.navigation.view.RemainRollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/view_remain_roll" android:layout_width="match_parent" android:layout_height="90dp">
+    <include layout="@layout/card_navi_remain_info"/>
+    <include layout="@layout/card_navi_remain_battery_info"/>
+</com.xiaopeng.systemui.infoflow.navigation.view.RemainRollView>

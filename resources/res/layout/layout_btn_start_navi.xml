@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:id="@+id/btn_start_navi" android:background="@drawable/layer_bg_button_start_navi" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="26sp" android:textColor="@color/tv_start_navi_text_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/tv_start_navi" android:background="@android:color/transparent" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="开始导航" android:drawableLeft="@drawable/png_ic_small_navigation" android:drawablePadding="10dp" style="@style/defaultFontTheme"/>
+</RelativeLayout>

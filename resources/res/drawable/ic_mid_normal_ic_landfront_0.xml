@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="70dp" android:width="70dp" android:viewportWidth="70" android:viewportHeight="70">
+    <path android:fillColor="@color/colorNaviCardLaneIconLight" android:pathData="M35.8122,10.297L35.8955,10.4001L47.8553,27.2293C48.0195,27.4603 48.0844,27.7474 48.0356,28.0265C47.9414,28.5652 47.4563,28.9375 46.9228,28.9027L46.8078,28.8889L38.9247,27.5107L38.9249,60.4732L31.1755,60.4732L31.1747,27.4587L22.9943,28.8889C22.4171,28.9898 21.8674,28.6037 21.7665,28.0265C21.7177,27.7474 21.7827,27.4603 21.9468,27.2293L33.9066,10.4001C34.1403,10.0713 34.527,9.9158 34.9011,9.9615C35.2336,9.9209 35.5761,10.0392 35.8122,10.297Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="nonZero"/>
+</vector>

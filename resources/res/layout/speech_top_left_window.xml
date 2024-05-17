@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/speech_touch_stop_view" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.xiaopeng.xui.widget.XTextView android:gravity="start|center_vertical" android:id="@+id/speech_tv_asr" android:background="@drawable/bg_asr_top_left" android:visibility="gone" android:layout_marginStart="@dimen/speech_top_left_asr_margin_start" style="@style/speech_tv_asr"/>
+        <com.xiaopeng.xui.widget.XTextView android:gravity="center_vertical" android:id="@+id/speech_tv_hint" android:background="@drawable/bg_asr_top_left" android:visibility="gone" android:layout_marginStart="@dimen/speech_top_left_asr_margin_start" style="@style/speech_tv_hint"/>
+    </RelativeLayout>
+    <include android:id="@+id/speech_echo_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/speech_asr_top_margin_top" android:layout_marginStart="@dimen/speech_top_left_echo_start" layout="@layout/speech_echo_view"/>
+</RelativeLayout>

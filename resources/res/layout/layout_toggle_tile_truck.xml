@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/qs_panel_toggle_button" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XRelativeLayout android:orientation="vertical" android:id="@+id/quickmenu_truck_chose" android:background="@drawable/quickmenu_button_layout_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.xiaopeng.xui.widget.XLinearLayout android:id="@+id/quickmenu_truck_open" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="37dp">
+            <com.xiaopeng.xui.widget.XImageView android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ic_qs_trunk_up" android:layout_marginStart="36dp"/>
+            <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_body_02_size" android:textColor="@color/quick_menu_text_icon_normal_color" android:gravity="end|center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/qs_panel_trunk_up" android:layout_marginStart="30dp"/>
+        </com.xiaopeng.xui.widget.XLinearLayout>
+        <com.xiaopeng.systemui.infoflow.theme.XRelativeLayout android:id="@+id/mid_line" android:background="@color/quickmenu_button_bg_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.75dp" android:layout_below="@+id/quickmenu_truck_open" android:layout_marginStart="34.5dp">
+            <com.xiaopeng.xui.widget.XImageView android:background="@color/quick_menu_truck_midline_color" android:layout_width="150dp" android:layout_height="1dp"/>
+        </com.xiaopeng.systemui.infoflow.theme.XRelativeLayout>
+        <com.xiaopeng.xui.widget.XLinearLayout android:id="@+id/quickmenu_truck_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.75dp" android:layout_below="@+id/mid_line">
+            <com.xiaopeng.xui.widget.XImageView android:id="@+id/quickmenu_truck_close_img" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ic_qs_trunk_down" android:layout_marginStart="36dp"/>
+            <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_body_02_size" android:textColor="@color/quick_menu_text_icon_normal_color" android:gravity="end|center_vertical" android:id="@+id/quickmenu_truck_close_txt" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/qs_panel_trunk_down" android:layout_marginStart="30dp"/>
+        </com.xiaopeng.xui.widget.XLinearLayout>
+        <com.xiaopeng.xui.widget.XImageView android:id="@+id/quickmenu_truck_pause_carmodel" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </com.xiaopeng.xui.widget.XRelativeLayout>
+    <com.xiaopeng.systemui.qs.widgets.XTileButton android:id="@+id/quickmenu_truck" android:layout_width="wrap_content" android:layout_height="wrap_content" app:tile_background="@drawable/quickmenu_button_layout_bg" app:tile_image="@drawable/ic_qs_trunk" app:tile_large_size="true" app:tile_orientation="horizontal" app:tile_text="@string/qs_panel_backbox_open" app:tile_textColor="@color/quick_menu_text_icon_normal_color" app:tile_title="@string/qs_panel_backbox_open"/>
+</com.xiaopeng.xui.widget.XRelativeLayout>

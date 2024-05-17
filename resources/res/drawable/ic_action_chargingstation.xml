@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:height="64dp" android:width="64dp" android:viewportWidth="64" android:viewportHeight="64">
+    <path android:fillColor="@drawable/res_0x7f080130_ic_action_chargingstation__0" android:pathData="M30.7086,14.4262L19.9443,32.0435C19.6707,32.4912 19.8119,33.0759 20.2596,33.3495C20.4088,33.4406 20.5801,33.4888 20.7549,33.4888L30.496,33.4888L30.496,33.4888L28.2123,48.8705C28.1353,49.3895 28.4935,49.8727 29.0125,49.9497C29.3876,50.0054 29.7599,49.8327 29.9596,49.5103L43.0559,28.3677C43.3322,27.9217 43.1946,27.3361 42.7485,27.0598C42.5983,26.9668 42.425,26.9174 42.2483,26.9174L30.496,26.9174L30.496,26.9174L32.4565,15.0767C32.5422,14.5591 32.1921,14.07 31.6745,13.9843C31.2925,13.9211 30.9105,14.0959 30.7086,14.4262Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="evenOdd"/>
+</vector>

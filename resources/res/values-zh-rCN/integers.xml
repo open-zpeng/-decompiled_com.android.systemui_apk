@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="infoflow_asr_max_word_num">13</integer>
+</resources>

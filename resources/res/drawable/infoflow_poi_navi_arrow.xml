@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="32dp" android:width="32dp" android:viewportWidth="32" android:viewportHeight="32">
+    <path android:fillColor="@color/infoflow_poi_navi_arrow" android:pathData="M18.0781,5.5051L27.8845,24.405C28.4794,25.5515 28.0322,26.9633 26.8856,27.5582C26.3321,27.8454 25.6869,27.8997 25.0932,27.709L16,24.7881L16,24.7881L6.9209,27.7384C5.6924,28.1377 4.3729,27.4654 3.9737,26.2369C3.7803,25.6418 3.8334,24.9941 4.1211,24.4385L13.9251,5.5067C14.5191,4.3597 15.9305,3.9113 17.0776,4.5054C17.5063,4.7274 17.8557,5.0766 18.0781,5.5051Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="evenOdd"/>
+</vector>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/view_infoflow" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/view_info_time"/>
+    <com.xiaopeng.systemui.infoflow.theme.XTextView android:textSize="24dp" android:textColor="@color/calling_tip" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/tv_calling_tip" android:background="@drawable/bg_xpvoice_noservice" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="300dp" android:layout_marginTop="27dp" android:maxWidth="356dp" android:minWidth="260dp" android:text="@string/default_xp_noservice_msg" android:maxLines="1"/>
+    <include layout="@layout/view_root_visualizer_effect"/>
+    <com.xiaopeng.systemui.infoflow.AvatarViewParent android:id="@+id/view_avatar_parent" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@+id/stub_view_avatar" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/navbar_item_width"/>
+        <com.xiaopeng.systemui.infoflow.MessageViewParent android:id="@+id/view_immerse" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/rootview_margin_top_small">
+            <include layout="@layout/root_music"/>
+            <include layout="@layout/root_message"/>
+        </com.xiaopeng.systemui.infoflow.MessageViewParent>
+    </com.xiaopeng.systemui.infoflow.AvatarViewParent>
+    <com.xiaopeng.systemui.infoflow.speech.SpeechRootView android:id="@+id/view_speech_root" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/rootview_margin_top"/>
+    <RelativeLayout android:id="@+id/asr_container" android:visibility="gone" android:layout_width="@dimen/speech_asr_container_width" android:layout_height="@dimen/speech_asr_container_height" android:layout_marginRight="35dp" android:layout_alignParentRight="true">
+        <com.xiaopeng.systemui.infoflow.theme.AnimatedTextView android:textSize="30sp" android:textColor="@color/infoflow_asr_normal" android:ellipsize="start" android:gravity="center" android:id="@+id/tv_speech_show" android:paddingLeft="84dp" android:paddingRight="60dp" android:layout_width="@dimen/speech_bubble_width" android:layout_height="@dimen/speech_asr_bubble_height" android:layout_marginTop="@dimen/speech_asr_bubble_margin_top" android:singleLine="true" android:layout_alignParentRight="true" style="@style/defaultFontTheme"/>
+        <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/btn_close" android:layout_width="104dp" android:layout_height="104dp" android:layout_marginTop="15dp" android:layout_marginRight="-10dp" android:src="@drawable/ic_infoflow_close" android:scaleType="centerInside" android:layout_alignParentRight="true"/>
+        <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/iv_asr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="194dp" android:layout_marginTop="@dimen/speech_asr_item_margin_top" android:src="@drawable/ic_infoflow_asr"/>
+    </RelativeLayout>
+    <include layout="@layout/view_car_check"/>
+    <include layout="@layout/view_egg"/>
+</RelativeLayout>

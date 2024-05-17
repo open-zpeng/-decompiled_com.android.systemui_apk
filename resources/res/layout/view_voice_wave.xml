@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/voice_wave_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    <com.xiaopeng.systemui.ui.widget.AnimatedImageView android:id="@+id/voice_wave_top" android:layout_width="wrap_content" android:layout_height="@dimen/infoflow_voice_wave_height" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+</merge>

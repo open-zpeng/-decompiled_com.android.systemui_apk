@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="100" android:drawable="@mipmap/ic_chargestation_00"/>
+    <item android:duration="100" android:drawable="@mipmap/ic_chargestation_05"/>
+    <item android:duration="100" android:drawable="@mipmap/ic_chargestation_10"/>
+    <item android:duration="100" android:drawable="@mipmap/ic_chargestation_15"/>
+    <item android:duration="100" android:drawable="@mipmap/ic_chargestation_20"/>
+    <item android:duration="100" android:drawable="@mipmap/ic_chargestation_25"/>
+    <item android:duration="100" android:drawable="@mipmap/ic_chargestation_30"/>
+    <item android:duration="100" android:drawable="@mipmap/ic_chargestation_35"/>
+</animation-list>

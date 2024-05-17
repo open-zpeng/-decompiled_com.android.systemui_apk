@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_selected="false" android:state_pressed="false" android:color="@color/colorTextNormal" android:state_activated="false"/>
+    <item android:state_enabled="true" android:state_selected="false" android:state_pressed="true" android:color="@color/colorTextPressed" android:state_activated="false"/>
+    <item android:state_enabled="false" android:state_selected="false" android:state_pressed="false" android:color="@color/colorTextDisabled" android:state_activated="false"/>
+    <item android:state_enabled="true" android:state_selected="false" android:state_pressed="false" android:color="@color/colorTextActivated" android:state_activated="true"/>
+    <item android:state_enabled="true" android:state_selected="true" android:state_pressed="false" android:color="@color/colorTextSelected" android:state_activated="false"/>
+    <item android:state_enabled="true" android:state_selected="true" android:state_pressed="true" android:color="@color/colorTextSelectedPressed" android:state_activated="false"/>
+    <item android:state_enabled="false" android:state_selected="true" android:state_pressed="false" android:color="@color/colorTextSelectedDisabled" android:state_activated="false"/>
+    <item android:state_enabled="true" android:state_selected="true" android:state_pressed="false" android:color="@color/colorTextSelectedActivated" android:state_activated="true"/>
+</selector>

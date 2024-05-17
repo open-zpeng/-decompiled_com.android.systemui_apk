@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.infoflow.speech.ui.widget.VoiceWaveViewContainer xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/voice_wave_view_container" android:background="@color/speech_asr_window_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <include android:id="@+id/mid_asr_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/layout_asr_container"/>
+</com.xiaopeng.systemui.infoflow.speech.ui.widget.VoiceWaveViewContainer>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/qs_panel_toggle_button" android:layout_width="@dimen/qs_panel_toggle_width_horizontal" android:layout_height="@dimen/qs_panel_toggle_height_horizontal">
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/btn" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32dp"/>
+    <TextView android:textSize="@dimen/x_font_body_02_size" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/toggle_button_text" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"/>
+</LinearLayout>

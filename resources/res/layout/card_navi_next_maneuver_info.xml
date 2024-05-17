@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.infoflow.navigation.view.NextManeuverInfoView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/view_next_maneuver" android:layout_width="match_parent" android:layout_height="90dp">
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedImageView android:layout_gravity="center_vertical" android:id="@+id/img_next_maneuver" android:layout_width="52dp" android:layout_height="52dp" android:layout_marginLeft="62dp" android:src="@drawable/ic_mid_normal_ic_sou19" android:scaleType="centerCrop"/>
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedTextView android:theme="@style/defaultFontTheme" android:textSize="36dp" android:textColor="@color/colorNaviText" android:layout_gravity="center_vertical" android:id="@+id/tv_next_maneuver" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="58dp"/>
+</com.xiaopeng.systemui.infoflow.navigation.view.NextManeuverInfoView>

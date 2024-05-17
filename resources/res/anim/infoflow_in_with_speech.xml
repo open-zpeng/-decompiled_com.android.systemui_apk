@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"> android:fromXDelta=&quot;0&quot;\10    android:toXDelta=&quot;0&quot;\10    android:fromYDelta=&quot;100%p&quot;\10    android:toYDelta=&quot;0&quot;\10    android:duration=&quot;600&quot;\10    android:fillAfater=&quot;true&quot;&gt; 
+</translate>

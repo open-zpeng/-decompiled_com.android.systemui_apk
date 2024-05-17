@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_selected="false" android:state_pressed="false" android:color="@color/colorViewBgNormal" android:state_activated="false"/>
+    <item android:state_enabled="true" android:state_selected="false" android:state_pressed="true" android:color="@color/colorViewBgPressed" android:state_activated="false"/>
+    <item android:state_enabled="false" android:state_selected="false" android:state_pressed="false" android:color="@color/colorViewBgDisabled" android:state_activated="false"/>
+    <item android:state_enabled="true" android:state_selected="false" android:state_pressed="false" android:color="@color/colorViewBgActivated" android:state_activated="true"/>
+    <item android:state_enabled="true" android:state_selected="true" android:state_pressed="false" android:color="@color/colorViewBgSelected" android:state_activated="false"/>
+    <item android:state_enabled="true" android:state_selected="true" android:state_pressed="true" android:color="@color/colorViewBgSelectedPressed" android:state_activated="false"/>
+    <item android:state_enabled="false" android:state_selected="true" android:state_pressed="false" android:color="@color/colorViewBgSelectedDisabled" android:state_activated="false"/>
+    <item android:state_enabled="true" android:state_selected="true" android:state_pressed="false" android:color="@color/colorViewBgSelectedActivated" android:state_activated="true"/>
+</selector>

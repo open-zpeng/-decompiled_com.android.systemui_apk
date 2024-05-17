@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/asr_container" android:layout_width="600dp" android:layout_height="wrap_content">
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedTextView android:textSize="29sp" android:textColor="@color/infoflow_multiperson_asr_normal" android:ellipsize="start" android:gravity="center" android:id="@+id/tv_speech_show" android:layout_width="500dp" android:layout_height="44dp" android:singleLine="true" style="@style/defaultFontTheme"/>
+</RelativeLayout>

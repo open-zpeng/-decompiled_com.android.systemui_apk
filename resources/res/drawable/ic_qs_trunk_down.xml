@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="56dp" android:width="56dp" android:viewportWidth="56" android:viewportHeight="56">
+    <path android:fillColor="@color/quick_menu_ui_icon_open_state" android:pathData="M29.954,41.402L44.233,19.984C44.952,18.905 44.66,17.447 43.581,16.728C43.196,16.471 42.742,16.333 42.279,16.333L13.721,16.333C12.424,16.333 11.373,17.385 11.373,18.682C11.373,19.145 11.51,19.599 11.767,19.984L26.046,41.402C26.765,42.482 28.223,42.773 29.303,42.054C29.561,41.882 29.782,41.66 29.954,41.402Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="evenOdd"/>
+</vector>

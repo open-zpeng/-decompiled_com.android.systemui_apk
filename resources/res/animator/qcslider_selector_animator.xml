@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <set>
+            <objectAnimator android:interpolator="@android:interpolator/accelerate_decelerate" android:duration="@integer/tile_anim_time" android:valueTo="6" android:valueType="intType" android:propertyName="marginHorizontal"/>
+            <objectAnimator android:interpolator="@android:interpolator/accelerate_decelerate" android:duration="@integer/tile_anim_time" android:valueTo="5" android:valueType="intType" android:propertyName="marginVertical"/>
+        </set>
+    </item>
+    <item>
+        <set>
+            <objectAnimator android:duration="@integer/tile_anim_time" android:valueTo="0" android:valueType="intType" android:propertyName="marginHorizontal"/>
+            <objectAnimator android:duration="@integer/tile_anim_time" android:valueTo="0" android:valueType="intType" android:propertyName="marginVertical"/>
+        </set>
+    </item>
+</selector>

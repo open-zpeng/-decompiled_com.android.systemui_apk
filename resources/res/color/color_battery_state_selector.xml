@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false" android:color="@color/sysbar_battery_normal" android:state_activated="false"/>
+    <item android:state_selected="true" android:color="@color/sysbar_battery_selected" android:state_activated="false"/>
+    <item android:state_selected="false" android:color="@color/sysbar_battery_activated" android:state_activated="true"/>
+</selector>

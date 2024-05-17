@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.infoflow.montecarlo.view.CameraItemView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="162dp" android:layout_height="170dp">
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedImageView android:layout_width="72dp" android:layout_height="72dp" android:layout_marginTop="24dp" android:src="@mipmap/ic_electroniceye_bg" android:layout_centerHorizontal="true"/>
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedImageView android:id="@+id/img_eleye" android:layout_width="56dp" android:layout_height="56dp" android:layout_marginTop="31dp" android:layout_centerHorizontal="true"/>
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedTextView android:theme="@style/defaultFontTheme" android:textColor="@color/colorNaviText" android:id="@+id/tv_eleye_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="108dp" android:layout_centerHorizontal="true"/>
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedImageView android:id="@+id/img_next" android:layout_width="7dp" android:layout_height="38dp" android:src="@mipmap/icon_small_next" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+</com.xiaopeng.systemui.infoflow.montecarlo.view.CameraItemView>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.infoflow.montecarlo.NaviRootView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/view_navi_root" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/card_navi"/>
+</com.xiaopeng.systemui.infoflow.montecarlo.NaviRootView>

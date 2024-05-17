@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="33px"/>
+                    <size android:height="66dp" android:width="420dp"/>
+                    <solid android:color="@color/colorPhoneItemNormal"/>
+                </shape>
+            </item>
+            <item android:gravity="center" android:drawable="@drawable/ic_mid_call"/>
+        </layer-list>
+    </item>
+    <item android:state_enabled="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="33px"/>
+                    <size android:height="66dp" android:width="420dp"/>
+                    <solid android:color="@color/colorPhoneItemPressed"/>
+                </shape>
+            </item>
+            <item android:gravity="center" android:drawable="@drawable/ic_mid_call"/>
+        </layer-list>
+    </item>
+</selector>

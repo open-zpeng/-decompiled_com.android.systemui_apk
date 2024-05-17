@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.infoflow.speech.ui.widget.VoiceWaveViewContainer xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/top_left_asr_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/iv_left_asr_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mask_asr_leftup"/>
+    <include android:id="@+id/left_asr_container" android:layout_width="600dp" android:layout_height="50dp" android:layout_marginLeft="257dp" android:layout_marginTop="47dp" layout="@layout/layout_asr_container"/>
+</com.xiaopeng.systemui.infoflow.speech.ui.widget.VoiceWaveViewContainer>

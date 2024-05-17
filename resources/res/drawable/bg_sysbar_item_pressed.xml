@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="@dimen/sysbar_item_pressed_margin_vertical" android:bottom="@dimen/sysbar_item_pressed_margin_vertical">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorViewBgNormal"/>
+            <corners android:radius="@dimen/sysbar_item_bg_selected_radius"/>
+        </shape>
+    </item>
+</layer-list>

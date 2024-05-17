@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.infoflow.theme.AlphaOptimizedLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:paddingTop="31dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.systemui.ui.widget.XTabLayout android:layout_gravity="center_horizontal" android:id="@+id/drive_mode_selector" android:layout_margin="12dp" app:indicatorWidthPercent="80%" app:titles="@array/sport_mode_array" style="@style/XTabLayout"/>
+    <com.xiaopeng.systemui.infoflow.theme.AnimatedTextView android:theme="@style/defaultFontTheme" android:textSize="24sp" android:textColor="@color/color_card_car_control_title" android:ellipsize="none" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17dp" android:text="@string/drive_mode" android:singleLine="true" android:requiresFadingEdge="horizontal"/>
+</com.xiaopeng.systemui.infoflow.theme.AlphaOptimizedLinearLayout>

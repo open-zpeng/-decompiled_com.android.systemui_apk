@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_gravity="center_horizontal" android:background="@drawable/bg_osd" android:layout_width="@dimen/view_osd2_window_width" android:layout_height="@dimen/view_osd2_window_height">
+    <com.xiaopeng.xui.widget.XSeekBar android:id="@+id/seekbar" android:layout_width="match_parent" android:layout_height="@dimen/view_osd2_window_content_height" app:apbTextEnable="false" style="@style/OSDProgressBar"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:paddingStart="100dp" android:paddingEnd="100dp">
+        <com.xiaopeng.xui.widget.XImageView android:id="@+id/icon" android:layout_width="56dp" android:layout_height="56dp" android:layout_marginEnd="50dp"/>
+        <com.xiaopeng.xui.widget.XTextView android:textSize="31sp" android:textColor="@color/osdInteractiveTextColor" android:id="@+id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="@string/font_xpeng_regular"/>
+    </LinearLayout>
+</com.xiaopeng.xui.widget.XRelativeLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="@dimen/status_bar_battery_height" android:width="@dimen/status_bar_battery_width" android:viewportWidth="70" android:viewportHeight="64">
+    <path android:fillColor="@color/color_battery_state_selector" android:pathData="M10,22L41.7,22C42.8046,22 43.7,22.8954 43.7,24L43.7,40C43.7,41.1046 42.8046,42 41.7,42L10,42C8.8954,42 8,41.1046 8,40L8,24C8,22.8954 8.8954,22 10,22Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="evenOdd"/>
+</vector>

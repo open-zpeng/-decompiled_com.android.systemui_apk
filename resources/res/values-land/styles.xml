@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BrightnessDialogContainer" parent="@style/BaseBrightnessDialogContainer">
+        <item name="android:layout_width">360dp</item>
+    </style>
+    <style name="DockedDividerBackground" parent="">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">10dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="DockedDividerHandle" parent="">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">96dp</item>
+    </style>
+    <style name="DockedDividerMinimizedShadow" parent="">
+        <item name="android:layout_width">8dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="XCatalog.Item" parent="@style/XCatalogItemBase">
+        <item name="android:textSize">@dimen/x_font_body_01_size</item>
+    </style>
+    <style name="XToastLayoutStyle" parent="@style/XToastLayoutStyleBase">
+        <item name="android:padding">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">@dimen/x_toast_width</item>
+        <item name="android:paddingStart">@dimen/x_toast_bg_padding</item>
+        <item name="android:paddingEnd">@dimen/x_toast_bg_padding</item>
+    </style>
+    <style name="XToastTextStyle" parent="@style/XToastTextStyleBase">
+        <item name="android:maxWidth">2100dp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+</resources>

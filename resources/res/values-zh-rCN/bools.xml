@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="cfg_car_control_preload_support">true</bool>
+    <bool name="cfg_chinese_version">true</bool>
+    <bool name="cfg_clock_support">false</bool>
+    <bool name="cfg_driver_account_support">true</bool>
+    <bool name="cfg_drop_quick_menu_support">true</bool>
+    <bool name="cfg_lock_support">true</bool>
+    <bool name="cfg_passenger_account_support">true</bool>
+    <bool name="cfg_repair_mode_support">true</bool>
+    <bool name="cfg_smart_device_support">false</bool>
+    <bool name="cfg_trunk_support">false</bool>
+    <bool name="show_defrost_back_on_status_bar">false</bool>
+    <bool name="show_defrost_on_status_bar">true</bool>
+</resources>

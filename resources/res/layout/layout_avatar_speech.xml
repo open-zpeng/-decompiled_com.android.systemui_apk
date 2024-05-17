@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.module.aiavatar.mvp.avatar.SpeechTextView android:textSize="24sp" android:textColor="@color/avatar_speech_text_color" android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@+id/tv_speech" android:background="@drawable/avatar_speech_text_bg" android:visibility="gone" android:layout_width="546dp" android:layout_height="wrap_content" android:layout_marginTop="110dp" android:minHeight="228dp" android:includeFontPadding="false" android:drawableLeft="@drawable/avatar_speech_text_icon" android:drawablePadding="20dp" android:lineSpacingMultiplier="1.1" android:alpha="0" android:fontFamily="xpeng-fonts-medium"/>
+</FrameLayout>

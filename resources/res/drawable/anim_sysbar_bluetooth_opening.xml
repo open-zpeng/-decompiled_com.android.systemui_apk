@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="200" android:drawable="@drawable/ic_sysbar_bluetooth_opening_0"/>
+    <item android:duration="200" android:drawable="@drawable/ic_sysbar_bluetooth_opening"/>
+</animation-list>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.systemui.infoflow.theme.AlphaOptimizedFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/infoflow_bg_speech_card" android:layout_width="match_parent" android:layout_height="match_parent"/>

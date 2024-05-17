@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="200" android:drawable="@drawable/ic_sysbar_battery_10"/>
+    <item android:duration="200" android:drawable="@drawable/ic_sysbar_battery_20"/>
+    <item android:duration="200" android:drawable="@drawable/ic_sysbar_battery_30"/>
+    <item android:duration="200" android:drawable="@drawable/ic_sysbar_battery_40"/>
+    <item android:duration="200" android:drawable="@drawable/ic_sysbar_battery_50"/>
+    <item android:duration="200" android:drawable="@drawable/ic_sysbar_battery_60"/>
+    <item android:duration="200" android:drawable="@drawable/ic_sysbar_battery_70"/>
+    <item android:duration="200" android:drawable="@drawable/ic_sysbar_battery_80"/>
+    <item android:duration="200" android:drawable="@drawable/ic_sysbar_battery_90"/>
+    <item android:duration="200" android:drawable="@drawable/ic_sysbar_battery_100"/>
+</animation-list>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ProgressBar android:id="@+id/battery_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:layout_marginRight="7dp" android:layout_marginBottom="5dp" android:max="100" android:progress="60" android:secondaryProgress="80" android:indeterminateOnly="false" android:progressDrawable="@drawable/selector_battery_progress_layer"/>
+</RelativeLayout>

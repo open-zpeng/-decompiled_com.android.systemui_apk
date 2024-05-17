@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_selected="false" android:state_pressed="false" android:color="@color/colorCloseBtnBgNormal" android:state_activated="false"/>
+    <item android:state_enabled="true" android:state_selected="false" android:state_pressed="true" android:color="@color/colorCloseBtnBgPressed" android:state_activated="false"/>
+    <item android:state_enabled="false" android:state_selected="false" android:state_pressed="false" android:color="@color/colorCloseBtnBgDisabled" android:state_activated="false"/>
+    <item android:state_enabled="true" android:state_selected="false" android:state_pressed="false" android:color="@color/colorCloseBtnBgActivated" android:state_activated="true"/>
+    <item android:state_enabled="true" android:state_selected="true" android:state_pressed="false" android:color="@color/colorCloseBtnBgSelected" android:state_activated="false"/>
+    <item android:state_enabled="true" android:state_selected="true" android:state_pressed="true" android:color="@color/colorCloseBtnBgSelectedPressed" android:state_activated="false"/>
+    <item android:state_enabled="false" android:state_selected="true" android:state_pressed="false" android:color="@color/colorCloseBtnBgSelectedDisabled" android:state_activated="false"/>
+    <item android:state_enabled="true" android:state_selected="true" android:state_pressed="false" android:color="@color/colorCloseBtnBgSelectedActivated" android:state_activated="true"/>
+</selector>

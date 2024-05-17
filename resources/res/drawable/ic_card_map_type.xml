@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="32dp" android:width="32dp" android:viewportWidth="32" android:viewportHeight="32">
+    <path android:fillColor="@color/colorCardTypeSvgIcon" android:pathData="M16,2C22,2 28,6.7932 28,13.8429C28,18.056 24.7856,23.0667 18.3568,28.875L17.903,29.2815C16.8817,30.1891 15.3471,30.2368 14.2718,29.4248L14.0969,29.2815C7.3656,23.3002 4,18.1539 4,13.8429C4,6.7932 10,2 16,2ZM16,10.2498C14.0508,10.2498 12.4706,11.7888 12.4706,13.6873C12.4706,15.5857 14.0508,17.1247 16,17.1247C17.9492,17.1247 19.5294,15.5857 19.5294,13.6873C19.5294,11.7888 17.9492,10.2498 16,10.2498Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="nonZero"/>
+</vector>
